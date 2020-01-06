@@ -1,0 +1,22 @@
+.carousel-container {
+	height: 240px;
+	width: 300px;
+	background-color: rgb(246, 230, 222);
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+	height: 210px;
+	width: 270px;
+	margin: 10px;
+	margin-bottom: 0;
+}
+
+p {
+	text-align: center;
+	margin-top: 0;
+}
