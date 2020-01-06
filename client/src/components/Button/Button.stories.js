@@ -5,7 +5,19 @@ import './Button.css'
 
 storiesOf('Button', module)
     .add('light pink button', () => <Button label='Book Now' type='light-pink' /> )
+
     .add('dark pink button', () => <Button label='DONE' type='dark-pink' /> )
+
     .add('small grey button', () => <Button label='Next' type='small-grey' /> )
+
     .add('large red button', () => <Button label='Browse Dresses' type='large-red' large /> )
+
+    .add('large grey button', () => <Button label='Modern Trousseau Bride' type='large-grey' large /> )
+    
+    .add('large white button', () => <Button label='Book Appointment' type='large-white' large /> )
+    
+    
+    
+
+
     
