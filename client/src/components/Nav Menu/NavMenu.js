@@ -8,11 +8,11 @@ class NavMenu extends Component {
             <div className="nav-container">
                 <nav>
                     <ul>
-                        <li><h3>Home</h3>Home</li>
-                        <li>Gowns</li>
-                        <li>Visit</li>
-                        <li>Book</li>
-                        <li>About</li>
+                        <li><h3>Home</h3></li>
+                        <li><h3>Gowns</h3></li>
+                        <li><h3>Visit</h3></li>
+                        <li><h3>Book</h3></li>
+                        <li><h3>About</h3></li>
                     </ul>
                 </nav>
             </div>
