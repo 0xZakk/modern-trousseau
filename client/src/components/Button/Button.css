@@ -1,0 +1,44 @@
+/* Should be a standard button which has the following variations:
+
+Small Light Pink Button Theme:
+Squared corners
+Light pink background
+Red Text
+Small in size
+
+Small Dark Pink Button Theme:
+Squared corners
+Dark pink background
+Black Text
+Small in size
+
+Small Grey Button Theme:
+Squared Corners
+Grey background
+Black Text
+Small in size
+
+Large Red Button Theme:
+Squared Corners
+Red background
+White text
+Larger in size
+
+Large Grey Button Theme:
+Squared Corners
+Grey background
+Black text
+Larger in size
+
+Large White Button Theme:
+Squared Corners
+White background
+Black text
+Larger in size */
+
+.button-light-pink {
+    border: 2px;
+    padding: 5px 25px;
+    background-color: rgb(249, 229, 221);
+    color: rgb(67, 31, 16);
+}
