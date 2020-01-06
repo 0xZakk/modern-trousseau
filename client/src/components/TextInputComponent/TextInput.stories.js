@@ -4,5 +4,5 @@ import { storiesOf } from "@storybook/react";
 import TextInput from "./TextInput";
 
 storiesOf("TextInput", module).add("Primary", () => (
-  <TextInput>Sign up here</TextInput>
+  <TextInput label={"Sign up here"}></TextInput>
 ));
