@@ -1,5 +1,7 @@
 import React from 'react';
 import './Card.css'
+import Heart from '../CardIcon'
+
 
 const Card = props => {
 	let cards = [
@@ -24,7 +26,8 @@ const Card = props => {
 	let newMap = cards.map(card =>  {
 		return(
 			<div className='card'>
-				<div className='cardImage'></div>
+				<div className='cardImage'>{card.image}</div>
+				<Heart />
 				<h4 className='cardTitle'>{card.title}</h4>
 				<p className='cardParagraph'>{card.p}</p>
 			</div>

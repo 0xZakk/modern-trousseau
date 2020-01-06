@@ -1,6 +1,6 @@
 .card {
-	height: 200px;
-	width: 300px;
+	height: 169px;
+	width: 234px;
 	border-radius: 10px;
 	background-color: rgb(247,230,222);
 	display: flex;
@@ -11,12 +11,9 @@
 
 }
 .cardImage {
-	/*position: absolute;*/
-	left: 8.33%;
-	right: 8.33%;
-	top: 11.77%;
-	bottom: 11.77%;
-	background-color: black;
+	/*height: 200px;*/
+	/*width: 200px;*/
+
 }
 .cardTitle {
 	margin: 0;
