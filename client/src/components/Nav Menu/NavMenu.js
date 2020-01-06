@@ -5,15 +5,17 @@ class NavMenu extends Component {
 
     render() {
         return (
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Gowns</li>
-                    <li>Visit</li>
-                    <li>Book</li>
-                    <li>About</li>
-                </ul>
-            </nav>
+            <div className="nav-container">
+                <nav>
+                    <ul>
+                        <li><h3>Home</h3>Home</li>
+                        <li>Gowns</li>
+                        <li>Visit</li>
+                        <li>Book</li>
+                        <li>About</li>
+                    </ul>
+                </nav>
+            </div>
         )
     }
 };

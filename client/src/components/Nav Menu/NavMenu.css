@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+
+.nav-container {
+    background-color: #FAE5DC;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
