@@ -4,4 +4,8 @@ import Button from './Button'
 import './Button.css'
 
 storiesOf('Button', module)
-    .add('light pink button', () => <Button label='light-pink' type='light-pink' /> )
+    .add('light pink button', () => <Button label='Book Now' type='light-pink' /> )
+    .add('dark pink button', () => <Button label='DONE' type='dark-pink' /> )
+    .add('small grey button', () => <Button label='NEXT' type='small-grey' /> )
+    .add('large red button', () => <Button label='Google' type='large-red' large /> )
+    
