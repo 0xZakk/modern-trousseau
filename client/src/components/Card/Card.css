@@ -10,17 +10,17 @@
 	margin: 12px;
 
 }
-.cardImage {
-	/*height: 200px;*/
-	/*width: 200px;*/
-
+.title {
+	font-size: 18px;
 }
 .cardTitle {
 	margin: 0;
+	font-size: 13px;
 }
 .cardParagraph {
 	margin: 0 20px;
 	text-align: center;
+	font-size: 13px;
 	font-family: 'Raleway';
 }
 .cardContainer {
