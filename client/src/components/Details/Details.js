@@ -1,2 +1,6 @@
 import React from 'react';
-import "../Details/Details.css"
+import "../Button"
+
+
+
+export default Details;
