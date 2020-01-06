@@ -11,7 +11,7 @@ class NavMenu extends Component {
                         <li><h3>Home</h3><span className="dots">&#9679;</span></li>
                         <li><h3>Our Gowns</h3><span className="dots">&#9679;</span></li>
                         <li><h3>Visit Us</h3><span className="dots">&#9679;</span></li>
-                        <li><h3>Book</h3><span className="dots">&#9679;</span></li>
+                        <li><h3>Book An Appointment</h3><span className="dots">&#9679;</span></li>
                         <li><h3>About Us</h3></li>
                     </ul>
                 </nav>

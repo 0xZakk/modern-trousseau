@@ -32,7 +32,7 @@
     text-transform: uppercase;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 735px) {
 
     .nav-container {
         flex-flow: row;
@@ -44,7 +44,7 @@
     }
 
     .nav-container nav {
-        padding: 10px;
+        padding: 5px;
         display: flex;
         justify-content: space-evenly;
     }
@@ -58,16 +58,20 @@
     }
 
     .nav-container nav ul li h3 {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0 auto;
     }
 
     .nav-container nav ul li {
-        padding: 0 20px;
+        padding: 0;
         display: flex;
         flex-flow: row;
         justify-content: center;
         align-items: center;
+    }
+
+    span.dots {
+        padding: 0 1.5em;
     }
 
 }
