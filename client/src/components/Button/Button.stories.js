@@ -3,5 +3,5 @@ import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
 
-storiesOf('Button', module)
-    .add('Primary', () => <Button>This is a Button</Button>)
+storiesOf('Carousel', module)
+    .add('Gown Display', () => <Button>This is a Button</Button>)
