@@ -1,63 +1,142 @@
-
 * {
   box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
 
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
   border-spacing: 0;
-  
 }
 
 /*Primary Colors */
 
 .primary-pink {
-  background-color: #FAE5DC;
+  background-color: #fae5dc;
 }
 
 .secondary-pink {
@@ -70,14 +149,13 @@ table {
   background-color: #000000;
 }
 
-
 /*Other Colors */
 .page-background-grey {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .brown-background {
-  background-color: #441F0E;
+  background-color: #441f0e;
 }
 
 /* Desktop Appointment Flow */
@@ -88,20 +166,20 @@ table {
 }
 
 .desktop-appointment-grey {
-  background-color: #E2DFDF;
+  background-color: #e2dfdf;
 }
 
 /* Mobile Appointment Flow */
 
 .mobile-appointment-grey {
-  background-color: #441F0E;
+  background-color: #441f0e;
   opacity: 0.1;
 }
 
 /* Typography */
 
 h1 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: italic;
   font-weight: bold;
   font-size: 45px;
@@ -111,7 +189,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 40px;
@@ -121,7 +199,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: medium;
   font-style: normal;
   font-size: 24px;
@@ -131,7 +209,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bolder;
   font-style: normal;
   font-size: 30px;
@@ -141,7 +219,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 24px;
@@ -151,7 +229,7 @@ h5 {
 }
 
 .body1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -161,7 +239,7 @@ h5 {
 }
 
 .body2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 11px;
   font-weight: normal;
   font-style: normal;
@@ -171,7 +249,7 @@ h5 {
 }
 
 .body3 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 17px;
@@ -181,17 +259,15 @@ h5 {
 }
 
 @media only screen and (min-width: 992px) {
+  .body1 {
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+  }
 
-.body1 {
-  font-size: 20px;
-  line-height: 18px;
-  letter-spacing: 0.1px;
-}
-
-.body2 {
-  font-size: 30px;
-  letter-spacing: 0.1px;
-  line-height: 24px;
-}
-
+  .body2 {
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+  }
 }
