@@ -1,6 +1,6 @@
-import React from 'react'
-import './Details.css'
+// import React from 'react'
+// import './Details.css'
 
-const Details = (props) => <deats>{props.children}</deats>
+// const Details = (props) => <deats>{props.children}</deats>
 
-export default Details
+// export default Details
