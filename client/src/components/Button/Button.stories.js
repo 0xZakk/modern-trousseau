@@ -5,4 +5,4 @@ import Button from './Button';
 
 storiesOf('Button', module)
     .add('Primary', () => <Button>This is a Button</Button>)
-    .add('Details', () => <Button label="details")
+    .add('Details', () => <Button label="details" type="details"/>)
