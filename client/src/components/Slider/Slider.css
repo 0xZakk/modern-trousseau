@@ -2,7 +2,9 @@
 
 .slide {
 	height: 280px;
-	width: 200px;
+	width: 320px;
+	margin-right: 30px;
+	display: none;
 	/* background-color: red; */
 }
 
@@ -21,7 +23,11 @@
 	background-color: rgb(246, 230, 222);
 }
 
-.carousel-container {
+.slideshow-container {
+	display: flex;
+}
+
+.slide-container {
 	display: flex;
 	flex-direction: row;
 	height: 260px;
@@ -31,11 +37,13 @@
 }
 
 button {
+	/* right: 0; */
 	background-color: rgb(246, 230, 222);
 	border: 0;
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-weight: bold;
+	height: 260px;
 }
 
 img {
