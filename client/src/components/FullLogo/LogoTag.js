@@ -6,9 +6,9 @@ import TagLine from './TagLine'
 
 const LogoTag = () => {
     return (
-        <div>
+        <div className="logotag">
             <Logo/>
-            <TagLine/>>
+            <TagLine/>
         </div>
     );
 };

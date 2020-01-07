@@ -6,7 +6,7 @@ h3 {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 44px;
     /* identical to box height, or 175% */
 
     letter-spacing: 0.1px;
@@ -23,7 +23,7 @@ h1 {
     font-family: Playfair display;
     font-style: italic;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 44px;
     /* identical to box height, or 175% */
 
     letter-spacing: 0.1px;
@@ -38,7 +38,7 @@ h1 {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 19px;
     /* identical to box height, or 175% */
 
     letter-spacing: 0.1px;
@@ -48,4 +48,10 @@ h1 {
     color: #25282B;
 
     margin: 0;
+}
+
+.logotag {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
