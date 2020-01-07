@@ -3,13 +3,15 @@ import { storiesOf } from '@storybook/react';
 import SVGIcon from './SVGIcon';
 import './Icon.css'
 storiesOf('SVGIcon', module)
-    .add('Logo', () =>
-        <div className='theIcon'>
-            <div className='logoNav'>
-                <SVGIcon className='icon' name='instagram' />
-            </div>
+    .add('Ig', () =>
+        <SVGIcon className='icon' name='instagram' />
+    )
+    .add('Fb', () =>
+        <SVGIcon className='icon' name='facebook' />
+    )
 
-        </div>
+    .add('pinterest', () =>
+        <SVGIcon className='icon' name='pinterest' />
     )
 
 
