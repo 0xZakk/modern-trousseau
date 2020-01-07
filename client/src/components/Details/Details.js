@@ -1,6 +1,6 @@
 import React from 'react'
-import './Button.css'
+import './Details.css'
 
-const Button = (props) => <button>{props.children}</button>
+const Details = (props) => <deats>{props.children}</deats>
 
-export default Button
+export default Details
