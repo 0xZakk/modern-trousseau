@@ -16,7 +16,8 @@
 	margin-top: 26px;
 }
 .card-paragraph {
-	margin: 0 30px;
+	margin: 0 30px 20px 30px;
+	width: 200px;
 	text-align: center;
 	font-size: 13px;
 	line-height: 15px;
