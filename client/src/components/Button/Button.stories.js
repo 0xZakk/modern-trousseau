@@ -1,23 +1,21 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react'
-import Button from './Button'
-import './Button.css'
+import React from "react";
+import { storiesOf } from "@storybook/react";
+import Button from "./Button";
+import "./Button.css";
 
-storiesOf('Button', module)
-    .add('light pink button', () => <Button label='Book Now' type='light-pink' /> )
+storiesOf("Button", module)
+  .add("light-pink", () => <Button label="Book Now" type="light-pink" />)
 
-    .add('dark pink button', () => <Button label='DONE' type='dark-pink' /> )
+  .add("dark-pink", () => <Button label="DONE" type="dark-pink" />)
 
-    .add('small grey button', () => <Button label='Next' type='small-grey' /> )
+  .add("red", () => (
+    <Button label="Browse Dresses" type="red" large />
+  ))
 
-    .add('large red button', () => <Button label='Browse Dresses' type='large-red' large /> )
+  .add("grey", () => (
+    <Button label="Modern Trousseau Bride" type="grey" large />
+  ))
 
-    .add('large grey button', () => <Button label='Modern Trousseau Bride' type='large-grey' large /> )
-    
-    .add('large white button', () => <Button label='Book Appointment' type='large-white' large /> )
-    
-    
-    
-
-
-    
+  .add("white", () => (
+    <Button label="Book Appointment" type="white" large />
+  ));
