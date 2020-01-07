@@ -16,6 +16,8 @@ button {
 	background-color: rgb(246, 230, 222);
 	border: 0;
 	margin-bottom: 60px;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 img {
