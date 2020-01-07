@@ -25,7 +25,7 @@ const Card = props => {
 	let newMap = cards.map(card =>  {
 		return(
 			<div className='card'>
-				{card.icon}
+				<div className='cardIcon'>{card.icon}</div>
 				<h4 className='cardTitle'>{card.title}</h4>
 				<p className='cardParagraph'>{card.p}</p>
 			</div>

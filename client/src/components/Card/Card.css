@@ -17,10 +17,14 @@
 	margin: 0;
 	font-size: 13px;
 }
+.cardIcon {
+	margin-top: 26px;
+}
 .cardParagraph {
-	margin: 0 20px;
+	margin: 0 30px;
 	text-align: center;
 	font-size: 13px;
+	line-height: 15px;
 	font-family: 'Raleway';
 }
 .cardContainer {

@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 import Card from './Card/Card'
 
+const getViewBox = name => {
+  switch (name) {
+    case 'heart':
+      return '0 0 63 63'
+    case 'calendar':
+      return '0 0 63 63'
+    case 'dress':
+      return '0 0 37 64'
+  }
+}
+
 const getPath = (name, props) => {
   switch (name) {
     case 'heart':
@@ -32,13 +43,12 @@ const Icon = ({
   width = "63",
   height="63",
   className = "",
-  viewBox = "0 0 63 63"
 }) => (
   <svg
     width={width}
     style={style}
     height={width}
-    viewBox={viewBox}
+    viewBox={getViewBox(name)}
     xmlns="http://www.w3.org/2000/svg"
   >
     {getPath(name)}
