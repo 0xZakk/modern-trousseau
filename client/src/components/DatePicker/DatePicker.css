@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Raleway;
+  src: url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+}
+
+label {
+  display: block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+#requestedDate {
+  box-shadow: 5px 10px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  background: rgba(68, 31, 14, 0.2);
+}
