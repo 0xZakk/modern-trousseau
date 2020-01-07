@@ -1,3 +1,21 @@
+/* pure-react-carousel package */
+
+.slide {
+	height: 280px;
+	width: 200px;
+	/* background-color: red; */
+}
+
+.slide1 .slide2 .slide3 .slide4 {
+	height: 200px;
+	width: 200px;
+	/* background-color: red; */
+}
+
+
+
+/* Static */
+
 .title {
 	width: 340px;
 	background-color: rgb(246, 230, 222);
