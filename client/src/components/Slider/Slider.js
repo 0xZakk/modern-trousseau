@@ -12,7 +12,7 @@ import ReactDOM from "react-dom";
 import "./Slider.css";
 
 const slides = {
-    "properties": [
+  properties: [
     {
       title: "Fall 2020 Collection",
       imga: imageFile1,
@@ -26,7 +26,7 @@ const slides = {
       imga: imageFile3,
       imgb: imageFile4,
       labela: "AlWAYS",
-      labelb: "BELIZE",      
+      labelb: "BELIZE",
       index: 1
     },
     {
@@ -46,63 +46,62 @@ const slides = {
       index: 3
     }
   ]
-}
+};
 
-const Card = ({property}) => {
-        const {title, imga, imgb, labela, labelb, index} = property
-        return (
-                <div id={`slide-${index}`} className="slide">
-                    <p className='title'>{`${title}`}</p>
-                    <div className='slide-container'>
-                        <div className='image-1'>
-                            <img src={imga}/>
-                            <p>{`${labela}`}</p>
-                        </div>
-                        <div className='image-2'>
-                            <img src={imgb}/>
-                            <p>{`${labelb}`}</p>
-                        </div>
-                    </div>
-                </div>
-            )
-        }
-
+const Card = ({ property }) => {
+  const { title, imga, imgb, labela, labelb, index } = property;
+  return (
+    <div id={`slide-${index}`} className="slide">
+      <p className="title">{`${title}`}</p>
+      <div className="slide-container">
+        <div className="image-1">
+          <img src={imga} />
+          <p>{`${labela}`}</p>
+        </div>
+        <div className="image-2">
+          <img src={imgb} />
+          <p>{`${labelb}`}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 class Slider extends React.Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            properties: slides.properties,
-            property: slides.properties[0]
-        }
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      properties: slides.properties,
+      property: slides.properties[0]
+    };
+  }
 
-nextProperty = () => {
-    const newIndex = this.state.property.index+1
+  nextProperty = () => {
+    const newIndex = this.state.property.index + 1;
     this.setState({
-        property: slides.properties[newIndex]
-    })
-}
+      property: slides.properties[newIndex]
+    });
+  };
 
-render() {
-    const {properties, property} = this.state
+  render() {
+    const { properties, property } = this.state;
     return (
-        <div>
-            <div className='card'>
-                <div className="slide">
-                    <Card property={property} />
-                </div>
-                <button className='button'
-                    onClick={() => this.nextProperty()}
-                    disabled={property.index ===
-                    slides.properties.length-1}
-                >&#10095;
-                </button>
-            </div>
+      <div>
+        <div className="card">
+          <div className="slide">
+            <Card property={property} />
+          </div>
+          <button
+            className="button"
+            onClick={() => this.nextProperty()}
+            disabled={property.index === slides.properties.length - 1}
+          >
+            &#10095;
+          </button>
         </div>
-    )
+      </div>
+    );
+  }
 }
-} 
 
-export default Slider
-
+export default Slider;
