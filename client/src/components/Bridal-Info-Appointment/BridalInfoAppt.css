@@ -1,0 +1,8 @@
+.defaultView-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+}
