@@ -5,7 +5,7 @@ import DatePicker from './DatePicker';
 
 function Child(props) {
     function handleChange(event) {
-        // Parent calls Child and props onChange
+        // Child component called by parent with props.onChange
         props.onChange(event.target.value);
     }
   
