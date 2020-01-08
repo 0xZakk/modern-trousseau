@@ -4,7 +4,7 @@ import './BridalInfoAppt.css'
 class BridalInfoAppt extends Component {
   render() {
     return (
-      <div className="defaultView-container primary-pink">
+      <div className={"defaultView-container primary-pink"}>
         <h4>Bridal Appointments</h4>
         <div className="body1">
           Modern Trousseau appointments are truly about you, the bride. Our
