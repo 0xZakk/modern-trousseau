@@ -5,7 +5,11 @@ const TextInput = props => (
   <>
     <label>{props.labelName}</label>
     <br />
-    <input type={props.type} placeholder={props.placeholder} />
+    <input
+      className="textInputClass"
+      type={props.type}
+      placeholder={props.placeholder}
+    />
   </>
 );
 
