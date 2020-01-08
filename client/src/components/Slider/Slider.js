@@ -48,7 +48,7 @@ const slides = {
   ]
 };
 
-const Card = ({ property }) => {
+const Slide = ({ property }) => {
   const { title, imga, imgb, labela, labelb, index } = property;
   return (
     <div id={`slide-${index}`} className="slide">
@@ -78,10 +78,15 @@ class Slider extends React.Component {
 
 
   prevProperty = () => {
+      if (this.state.property.index >= 0) {
     const newIndex = this.state.property.index - 1;
     this.setState({
       property: slides.properties[newIndex]
-    });
+    })} else {
+    const newIndex = 3;
+    this.setState({
+      property: slides.properties[newIndex]
+    })}
   };
 
   nextProperty = () => {
@@ -104,7 +109,7 @@ class Slider extends React.Component {
             &#10094;
           </button>
           <div className="slide">
-            <Card property={property} />
+            <Slide property={property} />
           </div>
           <button
             className="button"
