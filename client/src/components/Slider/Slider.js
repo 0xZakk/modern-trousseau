@@ -52,15 +52,15 @@ const Card = ({ property }) => {
   const { title, imga, imgb, labela, labelb, index } = property;
   return (
     <div id={`slide-${index}`} className="slide">
-      <p className="title">{`${title}`}</p>
+      <p className="title slide-text">{`${title}`}</p>
       <div className="slide-container">
         <div className="image-1">
-          <img src={imga} />
-          <p>{`${labela}`}</p>
+          <img src={imga} className="slide-img"/>
+          <p className="slide-text">{`${labela}`}</p>
         </div>
         <div className="image-2">
-          <img src={imgb} />
-          <p>{`${labelb}`}</p>
+          <img src={imgb} className="slide-img"/>
+          <p className="slide-text">{`${labelb}`}</p>
         </div>
       </div>
     </div>
@@ -76,6 +76,14 @@ class Slider extends React.Component {
     };
   }
 
+
+  prevProperty = () => {
+    const newIndex = this.state.property.index - 1;
+    this.setState({
+      property: slides.properties[newIndex]
+    });
+  };
+
   nextProperty = () => {
     const newIndex = this.state.property.index + 1;
     this.setState({
@@ -88,6 +96,13 @@ class Slider extends React.Component {
     return (
       <div>
         <div className="card">
+        <button
+            className="button"
+            onClick={() => this.prevProperty()}
+            disabled={property.index === slides.properties.length - 1}
+          >
+            &#10094;
+          </button>
           <div className="slide">
             <Card property={property} />
           </div>

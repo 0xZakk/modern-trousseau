@@ -33,14 +33,14 @@
   height: 278px;
 }
 
-img {
+.slide-img {
   height: 210px;
   width: 125px;
   margin: 10px;
   margin-bottom: 0;
 }
 
-p {
+.slide-text {
   text-align: center;
   margin: 0;
   font-weight: bold;
