@@ -45,108 +45,108 @@ import "./Slider.css";
 
 
 
-const slides = [
-    {
-              title: "Fall 2020 Collection",
-              imga: imageFile1,
-              imgb: imageFile2,
-              labela: "LUCA",
-              labelb: "VIDA"
-            },
-            {
-              title: "Spring 2020 Collection",
-              imga: imageFile3,
-              imgb: imageFile4,
-              labela: "AlWAYS",
-              labelb: "BELIZE"
-            },
-            {
-              title: "Trending Now",
-              imga: imageFile5,
-              imgb: imageFile6,
-              labela: "ALICE",
-              labelb: "EVELYN"
-            },
-            {
-              title: "Classics",
-              imga: imageFile7,
-              imgb: imageFile8,
-              labela: "AINSLEY",
-              labelb: "ANNIE"
-            }
-          ]
+// const slides = [
+//     {
+//               title: "Fall 2020 Collection",
+//               imga: imageFile1,
+//               imgb: imageFile2,
+//               labela: "LUCA",
+//               labelb: "VIDA"
+//             },
+//             {
+//               title: "Spring 2020 Collection",
+//               imga: imageFile3,
+//               imgb: imageFile4,
+//               labela: "AlWAYS",
+//               labelb: "BELIZE"
+//             },
+//             {
+//               title: "Trending Now",
+//               imga: imageFile5,
+//               imgb: imageFile6,
+//               labela: "ALICE",
+//               labelb: "EVELYN"
+//             },
+//             {
+//               title: "Classics",
+//               imga: imageFile7,
+//               imgb: imageFile8,
+//               labela: "AINSLEY",
+//               labelb: "ANNIE"
+//             }
+//           ]
     
 
-const Slider = props => {
-  class CarouselRightArrow extends React.Component {
-    render() {
-      return <button onClick={this.props.onClick}> huhu </button>;
-    }
-  }
-  class CarouselSlide extends React.Component {
-    render() {
-      return (
-        <li className={this.props.index == this.props.activeIndex}>
-          <p className="title">{this.props.slide.title}</p>
-          <p className="label1">{this.props.slide.labela}</p>
-          <p className="label2">{this.props.slide.labelb}</p>
-        </li>
-      );
-    }
-  }
+// const Slider = props => {
+//   class CarouselRightArrow extends React.Component {
+//     render() {
+//       return <button onClick={this.props.onClick}> huhu </button>;
+//     }
+//   }
+//   class CarouselSlide extends React.Component {
+//     render() {
+//       return (
+//         <li className={this.props.index == this.props.activeIndex}>
+//           <p className="title">{this.props.slide.title}</p>
+//           <p className="label1">{this.props.slide.labela}</p>
+//           <p className="label2">{this.props.slide.labelb}</p>
+//         </li>
+//       );
+//     }
+//   }
 
  
-  class Carousel extends React.Component {
-    constructor(props) {
-      super(props);
-      this.goToSlide = this.goToSlide.bind(this);
-      this.goToNextSlide = this.goToNextSlide.bind(this);
+//   class Carousel extends React.Component {
+//     constructor(props) {
+//       super(props);
+//       this.goToSlide = this.goToSlide.bind(this);
+//       this.goToNextSlide = this.goToNextSlide.bind(this);
 
-      this.state = {
-        activeIndex: 0
-      };
-    }
+//       this.state = {
+//         activeIndex: 0
+//       };
+//     }
 
-    goToSlide(index) {
-      this.setState({ activeIndex: index });
-    }
+//     goToSlide(index) {
+//       this.setState({ activeIndex: index });
+//     }
 
-    goToNextSlide(e) {
-      e.preventDefault();
+//     goToNextSlide(e) {
+//       e.preventDefault();
 
-      let index = this.state.activeIndex;
-      let { slides } = this.props;
-      let slidesLength = slides.length - 1;
+//       let index = this.state.activeIndex;
+//       let { slides } = this.props;
+//       let slidesLength = slides.length - 1;
 
-      if (index === slidesLength) {
-        index = -1;
-      }
+//       if (index === slidesLength) {
+//         index = -1;
+//       }
 
-      ++index;
+//       ++index;
 
-      this.setState({ activeIndex: index });
-    }
+//       this.setState({ activeIndex: index });
+//     }
 
-    render() {
-      return (
-        <div className="carousel">
-          <ul className="carousel__slides">
-            {this.props.slides.map((slide, index) => (
-              <CarouselSlide
-                key={index}
-                index={index}
-                activeIndex={this.state.activeIndex}
-                slide={slide}
-              />
-            ))}
-          </ul>
+//     render() {
+//       return (
+//         <div className="carousel">
+//           <ul className="carousel__slides">
+//             {this.props.slides.map((slide, index) => (
+//               <CarouselSlide
+//                 key={index}
+//                 index={index}
+//                 activeIndex={this.state.activeIndex}
+//                 slide={slide}
+//               />
+//             ))}
+//           </ul>
 
-          <CarouselRightArrow onClick={e => this.goToNextSlide(e)} />
-        </div>
-      );
-    }
-  }
-};
+//           <CarouselRightArrow onClick={e => this.goToNextSlide(e)} />
+//         </div>
+//       );
+//     }
+//   }
+// };
 
 // export default Slider;
 
@@ -172,90 +172,99 @@ const Slider = props => {
         // ------AS SECOND ATTEMPT
 
 
-// const slides = {
-//     "properties": [
-//     {
-//       title: "Fall 2020 Collection",
-//       imga: imageFile1,
-//       imgb: imageFile2,
-//       labela: "LUCA",
-//       labelb: "VIDA"
-//     },
-//     {
-//       title: "Spring 2020 Collection",
-//       imga: imageFile3,
-//       imgb: imageFile4,
-//       labela: "AlWAYS",
-//       labelb: "BELIZE"
-//     },
-//     {
-//       title: "Trending Now",
-//       imga: imageFile5,
-//       imgb: imageFile6,
-//       labela: "ALICE",
-//       labelb: "EVELYN"
-//     },
-//     {
-//       title: "Classics",
-//       imga: imageFile7,
-//       imgb: imageFile8,
-//       labela: "AINSLEY",
-//       labelb: "ANNIE"
-//     }
-//   ]
-// }
+const slides = {
+    "properties": [
+    {
+      title: "Fall 2020 Collection",
+      imga: imageFile1,
+      imgb: imageFile2,
+      labela: "LUCA",
+      labelb: "VIDA",
+      index: 0
+    },
+    {
+      title: "Spring 2020 Collection",
+      imga: imageFile3,
+      imgb: imageFile4,
+      labela: "AlWAYS",
+      labelb: "BELIZE",      
+      index: 1
+    },
+    {
+      title: "Trending Now",
+      imga: imageFile5,
+      imgb: imageFile6,
+      labela: "ALICE",
+      labelb: "EVELYN",
+      index: 2
+    },
+    {
+      title: "Classics",
+      imga: imageFile7,
+      imgb: imageFile8,
+      labela: "AINSLEY",
+      labelb: "ANNIE",
+      index: 3
+    }
+  ]
+}
 
 
 
 
-// const Card = ({property}) => {
-//         const {title} = property
-//         return (
-//                 <div id={`slide-${index}`} className="slide">
-//                     <p>{`slide-${index}`}</p>
-//                 </div>
-//             )
-//         }
+const Card = ({property}) => {
+        const {index} = property
+        return (
+                <div id={`slide-${index}`} className="slide">
+                    {/* <img src={imga} alt='photos'/> */}
+                    {/* <p>{`${labela}`}</p> */}
+                    {/* <p>{`${title}`}</p> */}
+                    <p>{`slide-${index}`}</p>
+                </div>
+            )
+        }
 
 
-// class Slider extends React.Component {
-//     constructor(props){
-//         super(props)
-//         this.state = {
-//             properties: slides.properties,
-//             property: slides.properties[0]
-//         }
-//     }
+class Slider extends React.Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            properties: slides.properties,
+            property: slides.properties[0]
+        }
+    }
 
-// nextProperty = () => {
-//     const newIndex = this.state.property.index+1
-//     this.setState({
-//         property: slides.properties[newIndex]
-//     })
-// }
+nextProperty = () => {
+    const newIndex = this.state.property.index+1
+    this.setState({
+        property: slides.properties[newIndex]
+    })
+}
 
-// render() {
-//     const {properties, property} = this.state
-//     return (
-//         <div>
-//         <button
-//             onClick={() => this.nextProperty()}
-//             disabled={property.index ===
-//             slides.properties.length-1}
-//         >&#10095;
-//         </button>
+render() {
+    const {properties, property} = this.state
+    return (
+        <div>
+        <button
+            onClick={() => this.nextProperty()}
+            disabled={property.index ===
+            slides.properties.length-1}
+        >&#10095;
+        </button>
 
-//             <div className="slide">
-//                 <section>
-//                     <p>{this.state.properties[0].title}</p>
-//                 </section>
+            <div className="slide">
+                <section>
+                    <p>{this.state.properties[0].title}</p>
+                </section>
 
-//                 <Card property={property} />
-//             </div>
-//         </div>
-//     )
-// }
-// }
+                <Card property={property} />
+            </div>
+        </div>
+    )
+}
+} 
+
+export default Slider
 
 
 
