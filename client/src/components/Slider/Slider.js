@@ -82,8 +82,8 @@ class Slider extends React.Component {
     const newIndex = this.state.property.index - 1;
     this.setState({
       property: slides.properties[newIndex]
-    })} else {
-    const newIndex = 3;
+    })} if (this.state.property.index == 0) {
+    const newIndex = slides.properties.length - 1;
     this.setState({
       property: slides.properties[newIndex]
     })}
