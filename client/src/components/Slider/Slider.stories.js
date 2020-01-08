@@ -3,6 +3,6 @@ import { storiesOf } from "@storybook/react";
 
 import Slider from "./Slider";
 
-storiesOf("Slider", module).add("Gown Display Static", () => (
+storiesOf("Slider", module).add("Gown Display Carousel", () => (
   <Slider type="gowns" />
 ));
