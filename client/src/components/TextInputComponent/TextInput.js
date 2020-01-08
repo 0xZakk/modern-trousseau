@@ -3,7 +3,7 @@ import "./TextInput.css";
 
 const TextInput = props => (
   <>
-    <label className="label-name">{props.labelName}</label>
+    <label className="label-name">{props.label}</label>
     <input
       className="text-input"
       type={props.type}

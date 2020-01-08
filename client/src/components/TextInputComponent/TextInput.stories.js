@@ -8,18 +8,14 @@ storiesOf("TextInput", module)
     <TextInput type={"text"} placeholder={"Sign up here"} />
   ))
   .add("Full Name", () => (
-    <TextInput labelName={"Full Name*"} type={"text"} placeholder={""} />
+    <TextInput label={"Full Name*"} type={"text"} placeholder={""} />
   ))
   .add("Email", () => (
-    <TextInput labelName={"Email*"} type={"email"} placeholder={""} />
+    <TextInput label={"Email*"} type={"email"} placeholder={""} />
   ))
   .add("Phone Number", () => (
-    <TextInput labelName={"Phone Number*"} type={"number"} placeholder={""} />
+    <TextInput label={"Phone Number*"} type={"number"} placeholder={""} />
   ))
   .add("Number of Guests", () => (
-    <TextInput
-      labelName={"Number of Guests"}
-      type={"number"}
-      placeholder={""}
-    />
+    <TextInput label={"Number of Guests"} type={"number"} placeholder={""} />
   ));
