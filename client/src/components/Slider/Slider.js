@@ -11,9 +11,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./Slider.css";
 
-
-
-
 const slides = {
     "properties": [
     {
@@ -51,19 +48,6 @@ const slides = {
   ]
 }
 
-{/* <div className='slide slide1'>
-//             <p className='title'>{slides[0].title}</p>
-//             <div className='slide-container'>
-//                 <div className='image-1'>
-//                     <img src={slides[0].imga}/>
-//                     <p>{slides[0].label1a}</p>
-//                 </div>
-//                 <div className='image-2'>
-//                     <img src={imageFile2}/>
-//                     <p>{slides[0].label1b}</p>
-//                 </div> */}
-
-
 const Card = ({property}) => {
         const {title, imga, imgb, labela, labelb, index} = property
         return (
@@ -78,8 +62,6 @@ const Card = ({property}) => {
                             <img src={imgb}/>
                             <p>{`${labelb}`}</p>
                         </div>
-                        {/* <p>{`${index}`}</p> */}
-                        {/* <p>{`slide-${index}`}</p> */}
                     </div>
                 </div>
             )
