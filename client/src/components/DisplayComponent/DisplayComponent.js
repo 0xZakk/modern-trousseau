@@ -50,50 +50,32 @@ const slides = {
   ]
 };
 
-const Card = ({ property }) => {
-  const { title, imga, imgb, labela, labelb, index } = property;
-  return (
-    <div id={`slide-${index}`} className="display-component-slide">
-      <p className="display-component-collection-title card-part">{`${title}`}</p>
-      <div className="display-component-container">
-        <div className="image-1">
-          <img src={imga} className="display-component-pic"/>
-          <p className="display-component-text">{`${labela}`}</p>
-        </div>
-        <div className="image-2">
-          <img src={imgb} className="display-component-pic"/>
-          <p className="display-component-text">{`${labelb}`}</p>
-        </div>
-      </div>
-    </div>
-  );
-};
 
 class DisplayComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      properties: slides.properties,
-      property: slides.properties[0]
+      // properties: slides.properties,
+      // property: slides.properties[0]
     };
   }
-
-  nextProperty = () => {
-    const newIndex = this.state.property.index + 1;
-    this.setState({
-      property: slides.properties[newIndex]
-    });
-  };
-
+  
+  // nextProperty = () => {
+  //   const newIndex = this.state.property.index + 1;
+  //   this.setState({
+  //     property: slides.properties[newIndex]
+  //   });
+  // };
+  
   render() {
-    const { properties, property } = this.state;
+    // const { properties, property } = this.state;
     return (
       <div>
         <h3 className="display-component-title">GOWNS</h3>
-        <Slider></Slider>
-        <Slider></Slider>
-        <Slider></Slider>
-        <Slider></Slider>
+        <Slider className="slider-1"></Slider>
+        <Slider className="slider-2"></Slider>
+        <Slider className="slider-3"></Slider>
+        <Slider className="slider-4"></Slider>
       </div>
     );
   }
@@ -104,6 +86,31 @@ class DisplayComponent extends React.Component {
 export default DisplayComponent;
 
 
+
+
+
+
+
+
+
+// const Card = ({ property }) => {
+//   const { title, imga, imgb, labela, labelb, index } = property;
+//   return (
+//     <div id={`slide-${index}`} className="display-component-slide">
+//       <p className="display-component-collection-title card-part">{`${title}`}</p>
+//       <div className="display-component-container">
+//         <div className="image-1">
+//           <img src={imga} className="display-component-pic"/>
+//           <p className="display-component-text">{`${labela}`}</p>
+//         </div>
+//         <div className="image-2">
+//           <img src={imgb} className="display-component-pic"/>
+//           <p className="display-component-text">{`${labelb}`}</p>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 
 {/* <div className="display-component-card display-component-card-1">

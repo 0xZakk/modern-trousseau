@@ -76,6 +76,13 @@ class Slider extends React.Component {
     };
   }
 
+  previousProperty = () => {
+    const newIndex = this.state.property.index - 1;
+    this.setState({
+      property: slides.properties[newIndex]
+    });
+  };
+
   nextProperty = () => {
     const newIndex = this.state.property.index + 1;
     this.setState({
@@ -88,6 +95,13 @@ class Slider extends React.Component {
     return (
       <div>
         <div className="slider-card">
+          <button
+            className="slider-button"
+            onClick={() => this.nextProperty()}
+            disabled={property.index === slides.properties.length - 1}
+          >
+            &#10095;
+          </button>
           <div className="slider-slide">
             <Card property={property} />
           </div>
