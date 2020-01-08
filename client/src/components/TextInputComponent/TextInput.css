@@ -1,6 +1,17 @@
+@font-face {
+  font-family: Raleway;
+  src: url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+}
+
 .textInputClass {
+  font: Raleway;
   background-color: rgb(228, 224, 222);
   padding: 5px 0px;
   outline-color: rgb(249, 228, 221);
+  font-size: 18px;
+}
+
+.labelNameClass {
+  font: Raleway;
   font-size: 18px;
 }
