@@ -3,10 +3,9 @@ import "./TextInput.css";
 
 const TextInput = props => (
   <>
-    <label className="labelNameClass">{props.labelName}</label>
-    <br />
+    <label className="label-name">{props.labelName}</label>
     <input
-      className="textInputClass"
+      className="text-input"
       type={props.type}
       placeholder={props.placeholder}
     />

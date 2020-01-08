@@ -5,7 +5,7 @@ import TextInput from "./TextInput";
 
 storiesOf("TextInput", module)
   .add("Primary", () => (
-    <TextInput labelName={""} type={"text"} placeholder={"Sign up here"} />
+    <TextInput type={"text"} placeholder={"Sign up here"} />
   ))
   .add("Full Name", () => (
     <TextInput labelName={"Full Name*"} type={"text"} placeholder={""} />
