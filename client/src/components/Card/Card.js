@@ -4,9 +4,9 @@ import './Card.css'
 const Card = (props) => {
 	return(
 		<div className='card-container'>
-			<Icon type='heart' />
-			<h4 className='card-title'>Get Inspired</h4>
-			<p className='card-p'>Each design evokes classic couture while expressing a vision of modern style & sophistication.</p>
+			<div className='card-icon'>{props.icon}</div>
+			<h4 className='card-title'>{props.title}</h4>
+			<p className='card-p'>{props.paraText}</p>
 		</div>
 	)
 }
