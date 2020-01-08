@@ -228,7 +228,7 @@ h5 {
   color: #000000;
 }
 
-.body1 {
+.main-text {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -238,7 +238,7 @@ h5 {
   line-height: normal;
 }
 
-.body2 {
+.secondary-text {
   font-family: "Raleway", sans-serif;
   font-size: 11px;
   font-weight: normal;
@@ -248,7 +248,7 @@ h5 {
   line-height: normal;
 }
 
-.body3 {
+.thertiary-text {
   font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -259,13 +259,13 @@ h5 {
 }
 
 @media only screen and (min-width: 992px) {
-  .body1 {
+  .main-text {
     font-size: 20px;
     line-height: 18px;
     letter-spacing: 0.1px;
   }
 
-  .body2 {
+  .secondary-text {
     font-size: 30px;
     letter-spacing: 0.1px;
     line-height: 24px;
