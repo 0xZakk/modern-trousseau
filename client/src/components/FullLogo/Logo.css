@@ -1,57 +1,40 @@
-div{
+.logo{
     display: flex;
+    flex-direction: row;
+    margin: auto;
 }
 
-h3 {
+.modern {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 44px;
-    /* identical to box height, or 175% */
-
     letter-spacing: 0.1px;
-
-    /* Black / 100 */
-
     color: #25282B;
-
-    margin: 0;
-
 }
 
-h1 {
+.trouseau {
     font-family: Playfair display;
     font-style: italic;
     font-weight: bold;
     font-size: 44px;
-    /* identical to box height, or 175% */
-
     letter-spacing: 0.1px;
-
-    /* Black / 100 */
-
     color: #25282B;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 15px;
 }
 
-.tagline {
+.tag-line {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 19px;
-    /* identical to box height, or 175% */
-
     letter-spacing: 0.1px;
-
-    /* Black / 100 */
-
     color: #25282B;
-
-    margin: 0;
+    margin: auto;
 }
 
-.logotag {
+.logo-tag {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    margin: auto;
 }

@@ -6,7 +6,7 @@ import TagLine from './TagLine'
 
 const LogoTag = () => {
     return (
-        <div className="logotag">
+        <div className="logo-tag">
             <Logo/>
             <TagLine/>
         </div>
@@ -14,6 +14,3 @@ const LogoTag = () => {
 };
 
 export default LogoTag;
-
-// rcc = react class component
-// rsc = react stateless component
