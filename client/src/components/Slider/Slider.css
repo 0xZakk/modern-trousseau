@@ -1,12 +1,14 @@
 .slide {
   height: 280px;
-  width: 300px;
+  width: 280px;
   margin-right: 30px;
 }
 
 .title {
   width: 340px;
   background-color: rgb(246, 230, 222);
+  text-align: left;
+  font-weight: bold;
 }
 
 .card {
@@ -41,4 +43,5 @@ img {
 p {
   text-align: center;
   margin: 0;
+  font-weight: bold;
 }
