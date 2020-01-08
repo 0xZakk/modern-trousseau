@@ -8,6 +8,7 @@
   height: 100vh;
   width: 100vw;
   margin: 0 auto;
+  visibility: hidden;
 }
 
 .nav-container nav {
@@ -38,7 +39,7 @@ span.dots {
 }
 
 .is-visible {
-  visibility: hidden;
+  visibility: visible;
 }
 
 @media only screen and (min-width: 735px) {
