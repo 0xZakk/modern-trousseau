@@ -21,7 +21,7 @@
         padding: 0;
 }
 
-.nav-container .nav-title {
+.nav-container nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 300;
@@ -62,12 +62,12 @@ span.dots {
          padding: 0;
     }
 
-    .nav-container .nav-title {
+    .nav-container nav ul li h3 {
         font-size: 16px;
         margin: 0 auto;
     }
 
-    .nav-container .nav-title:hover {
+    .nav-container nav ul li h3:hover {
         text-decoration: underline;
         cursor: pointer;
     }
