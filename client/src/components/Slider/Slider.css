@@ -18,6 +18,10 @@
 	display: flex;
 }
 
+.card {
+	display: flex;
+}
+
 .slide-container {
 	display: flex;
 	flex-direction: row;
@@ -25,15 +29,18 @@
 	width: 320px;
 	background-color: rgb(246, 230, 222);
 	border-left: 20px solid rgb(246, 230, 222);
+	margin-right: 0;
 }
 
-button {
+.button {
 	background-color: rgb(246, 230, 222);
 	border: 0;
 	margin-bottom: 50px;
+	margin-left: 0;
 	font-size: 20px;
 	font-weight: bold;
 	height: 260px;
+	/* float: right; */
 }
 
 img {

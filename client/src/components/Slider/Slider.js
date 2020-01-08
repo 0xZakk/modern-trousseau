@@ -51,16 +51,36 @@ const slides = {
   ]
 }
 
-
+{/* <div className='slide slide1'>
+//             <p className='title'>{slides[0].title}</p>
+//             <div className='slide-container'>
+//                 <div className='image-1'>
+//                     <img src={slides[0].imga}/>
+//                     <p>{slides[0].label1a}</p>
+//                 </div>
+//                 <div className='image-2'>
+//                     <img src={imageFile2}/>
+//                     <p>{slides[0].label1b}</p>
+//                 </div> */}
 
 
 const Card = ({property}) => {
-        const {index} = property
+        const {title, imga, imgb, labela, labelb, index} = property
         return (
                 <div id={`slide-${index}`} className="slide">
-                    {/* <p>{`${labela}`}</p> */}
-                    <p>{`${index}`}</p>
-                    <p>{`slide-${index}`}</p>
+                    <p className='title'>{`${title}`}</p>
+                    <div className='slide-container'>
+                        <div className='image-1'>
+                            <img src={imga}/>
+                            <p>{`${labela}`}</p>
+                        </div>
+                        <div className='image-2'>
+                            <img src={imgb}/>
+                            <p>{`${labelb}`}</p>
+                        </div>
+                        {/* <p>{`${index}`}</p> */}
+                        {/* <p>{`slide-${index}`}</p> */}
+                    </div>
                 </div>
             )
         }
@@ -86,19 +106,16 @@ render() {
     const {properties, property} = this.state
     return (
         <div>
-        <button
-            onClick={() => this.nextProperty()}
-            disabled={property.index ===
-            slides.properties.length-1}
-        >&#10095;
-        </button>
-
-            <div className="slide">
-                {/* <section>
-                    <p>{this.state.properties[0].title}</p>
-                </section> */}
-
-                <Card property={property} />
+            <div className='card'>
+                <div className="slide">
+                    <Card property={property} />
+                </div>
+                <button className='button'
+                    onClick={() => this.nextProperty()}
+                    disabled={property.index ===
+                    slides.properties.length-1}
+                >&#10095;
+                </button>
             </div>
         </div>
     )
