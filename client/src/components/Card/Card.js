@@ -6,7 +6,7 @@ const Card = (props) => {
 		<div className='card-container'>
 			<div className='card-icon'>{props.icon}</div>
 			<h4 className='card-title'>{props.title}</h4>
-			<p className='card-p'>{props.paraText}</p>
+			<p className='card-paragraph'>{props.paragraph}</p>
 		</div>
 	)
 }
