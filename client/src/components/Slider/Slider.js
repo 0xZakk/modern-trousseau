@@ -45,38 +45,72 @@ import "./Slider.css";
 
 
 
-const slides = {
-    "properties": [
+// const slides = {
+//     "properties": [
+//     {
+//       title: "Fall 2020 Collection",
+//       imga: imageFile1,
+//       imgb: imageFile2,
+//       labela: "LUCA",
+//       labelb: "VIDA"
+//     },
+//     {
+//       title: "Spring 2020 Collection",
+//       imga: imageFile3,
+//       imgb: imageFile4,
+//       labela: "AlWAYS",
+//       labelb: "BELIZE"
+//     },
+//     {
+//       title: "Trending Now",
+//       imga: imageFile5,
+//       imgb: imageFile6,
+//       labela: "ALICE",
+//       labelb: "EVELYN"
+//     },
+//     {
+//       title: "Classics",
+//       imga: imageFile7,
+//       imgb: imageFile8,
+//       labela: "AINSLEY",
+//       labelb: "ANNIE"
+//     }
+//   ]
+// }
+
+
+
+const slides = [
     {
-      title: "Fall 2020 Collection",
-      imga: imageFile1,
-      imgb: imageFile2,
-      labela: "LUCA",
-      labelb: "VIDA"
-    },
-    {
-      title: "Spring 2020 Collection",
-      imga: imageFile3,
-      imgb: imageFile4,
-      labela: "AlWAYS",
-      labelb: "BELIZE"
-    },
-    {
-      title: "Trending Now",
-      imga: imageFile5,
-      imgb: imageFile6,
-      labela: "ALICE",
-      labelb: "EVELYN"
-    },
-    {
-      title: "Classics",
-      imga: imageFile7,
-      imgb: imageFile8,
-      labela: "AINSLEY",
-      labelb: "ANNIE"
-    }
-  ]
-}
+              title: "Fall 2020 Collection",
+              imga: imageFile1,
+              imgb: imageFile2,
+              labela: "LUCA",
+              labelb: "VIDA"
+            },
+            {
+              title: "Spring 2020 Collection",
+              imga: imageFile3,
+              imgb: imageFile4,
+              labela: "AlWAYS",
+              labelb: "BELIZE"
+            },
+            {
+              title: "Trending Now",
+              imga: imageFile5,
+              imgb: imageFile6,
+              labela: "ALICE",
+              labelb: "EVELYN"
+            },
+            {
+              title: "Classics",
+              imga: imageFile7,
+              imgb: imageFile8,
+              labela: "AINSLEY",
+              labelb: "ANNIE"
+            }
+          ]
+    
 
 const Slider = props => {
   class CarouselRightArrow extends React.Component {
