@@ -1,81 +1,54 @@
-.button-light-pink {
-    border: 1px;
-    background-color: #FAE5DC;
-    color: #441F0E;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 22px;
-    font-style: normal;
-    font-family: Sahitya;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 31px;
-    width: 88px;
-   
-}
-
-.button-dark-pink {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    background-color: rgba(68, 31, 14, 0.2);
-    border: 1px;
-    height: 28px;
-    width: 75px;
-}
-
-.button-small-grey {
-    font-family: Sahitya;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-    background: rgba(68, 31, 14, 0.2);
-    height: 28px;
-    width: 75px;
-    border: 1px;
-}
-
-.button-large-red {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 16px;
-    background-color: #441F0E;
-    border: 0.3px solid #441F0E;
-    box-sizing: border-box;
-    color: white;
-    width: 138px;
-    height: 30px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.button-large-grey {
-  width: 154px;
-  height: 35px;
-  background-color: rgba(227, 224, 222);
-  font-family: Sahitya;
+.button {
   font-style: normal;
   font-weight: bold;
-  font-size: 13px;
-  line-height: 16px;
-  color: black;
+  line-height: 20px;
+  font-family: Sahitya;
+  font-size: 15px;
   border: 1px;
 }
 
-.button-large-white {
-    height: 37px;
-    width: 202px;
-    background-color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-size: 20px;
-    line-height: 23px;
-    font-family: Raleway;
-    font-weight: normal;
-    font-style: normal;
-    color: #000000;
+.button-large {
+  width: 155px;
+  height: 33px;
+  font-size: 13px;
+  line-height: 16px;
+  color: black;
+}
+
+.button-light-pink {
+  background-color: #fae5dc;
+  color: #441f0e;
+  font-weight: bold;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 31px;
+  width: 88px;
+}
+
+.button-dark-pink {
+  background-color: rgba(68, 31, 14, 0.2);
+  height: 28px;
+  width: 75px;
+}
+
+.button-red {
+  font-weight: 800;
+  background-color: #441f0e;
+  border: 0.3px solid #441f0e;
+  box-sizing: border-box;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-grey {
+  background-color: rgba(227, 224, 222);
+}
+
+.button-white {
+  height: 37px;
+  width: 202px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  font-weight: lighter;
 }
