@@ -1,10 +1,21 @@
-.card-container {
-    background-color: pink;
-    height: 300px;
-    width: 500px;
+.wrapper {
+    background-color: rgb(245, 245, 245);
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
-.pic{
-    background-color: blue;
-    height: 100px;
-    width: 100px;
+.pic {
+    width: 125px;
+    height: 133px;
+    
+}
+.text {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.p {
+    font-size: 30px;
 }

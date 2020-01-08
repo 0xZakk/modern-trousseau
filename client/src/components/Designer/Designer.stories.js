@@ -4,4 +4,4 @@ import Designer from './Designer'
 
   
 storiesOf('Designer', module)
-    .add('Primary', () => <Designer>This is a Button</Designer>)
+    .add('Designer', () => <Designer>This is a Button</Designer>)
