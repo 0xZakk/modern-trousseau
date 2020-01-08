@@ -42,7 +42,7 @@ span.dots {
   visibility: visible;
 }
 
-@media only screen and (min-width: 735px) {
+/* @media only screen and (min-width: 735px) {
   .nav-container {
     flex-flow: row;
     justify-content: space-evenly;
@@ -90,4 +90,4 @@ span.dots {
     visibility: visible;
     display: inline-block;
   }
-}
+} */

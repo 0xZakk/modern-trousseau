@@ -2,8 +2,8 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 //import StoryRouter from "storybook-react-router";
 
-import NavMenu from "./NavMenu";
+import FlagshipMenu from "./FlagshipMenu";
 
-storiesOf("NavMenu", module)
+storiesOf("FlagshipMenu", module)
   //.addDecorator(StoryRouter())
-  .add("NavMenu", () => <NavMenu />);
+  .add("FlagshipMenu", () => <FlagshipMenu />);
