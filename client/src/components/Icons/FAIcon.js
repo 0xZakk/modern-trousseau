@@ -9,7 +9,7 @@ library.add(fab, fas, far)
 
 const Icons = (props) => (
     <div>
-        <FontAwesomeIcon icon = {props.name}/>
+        <FontAwesomeIcon icon = {props.name} size = {props.size}/>
     </div>
 )
 
