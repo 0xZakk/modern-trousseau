@@ -1,4 +1,4 @@
-.box {
+/* .box {
     background-color: rgb(227,224,222);
     color: rgb(94,91,90);
     width: 400px;
@@ -8,4 +8,16 @@
 
 .title {
     font-size: 35px;
+} */
+
+.text {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(227,224,222);
+    color: rgb(94,91,90);
+    font-size: 25px;
+}
+
+.title {
+    font-size: 30px;
 }
