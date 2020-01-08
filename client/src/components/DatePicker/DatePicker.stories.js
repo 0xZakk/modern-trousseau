@@ -3,11 +3,14 @@ import { storiesOf } from '@storybook/react';
 
 import DatePicker from './DatePicker';
 
-function handleClick(e) {
-  e.preventDefault();
-  alert("You clicked the button");
-  //Component called here for searchbar in render
+function Child(props) {
+    function handleChange(event) {
+        // Parent calls Child and props onChange
+        props.onChange(event.target.value);
+    }
+  
+    return <input value={props.value} onChange={handleChange} />
 }
 
 storiesOf('DatePicker', module)
-    .add('DatePicker', () => <DatePicker label={"Requested Date*"} />)
+    .add('DatePicker', () => <DatePicker label={"Requested Date*"} value={"November 11"} min={"February 29, 2020"} step="1" max={"February 28, 2022") />)
