@@ -10,7 +10,7 @@
     font-size: 35px;
 } */
 
-.text {
+.text-area {
     width: 400px;
     height: 150px;
     background-color: rgb(227,224,222);
@@ -18,6 +18,6 @@
     font-size: 25px;
 }
 
-.title {
+.text-area-title {
     font-size: 30px;
 }
