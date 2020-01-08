@@ -1,22 +1,13 @@
-/* pure-react-carousel package */
-
 .slide {
 	height: 280px;
 	width: 320px;
 	margin-right: 30px;
-	/* display: none; */
-	/* background-color: red; */
 }
 
 .slide1 .slide2 .slide3 .slide4 {
 	height: 200px;
 	width: 200px;
-	/* background-color: red; */
 }
-
-
-
-/* Static */
 
 .title {
 	width: 340px;
@@ -37,7 +28,6 @@
 }
 
 button {
-	/* right: 0; */
 	background-color: rgb(246, 230, 222);
 	border: 0;
 	margin-bottom: 50px;
