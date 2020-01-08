@@ -3,7 +3,7 @@
   src: url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 }
 
-label {
+.date-picker {
   display: block;
   font-family: Raleway;
   font-style: normal;
@@ -12,12 +12,7 @@ label {
   line-height: 21px;
 }
 
-input,
-label {
-  margin: 0.4rem 0;
-}
-
-#requestedDate {
+.requested-date-input {
   box-shadow: 5px 10px;
   font-family: Raleway;
   font-style: normal;
@@ -25,5 +20,6 @@ label {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin: 0.4rem 0;
   background: rgba(68, 31, 14, 0.2);
 }

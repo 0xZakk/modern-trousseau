@@ -10,4 +10,4 @@ function handleClick(e) {
 }
 
 storiesOf('DatePicker', module)
-    .add('DatePicker', () => <DatePicker label='Requested Date*' />)
+    .add('DatePicker', () => <DatePicker label={"Requested Date*"} />)
