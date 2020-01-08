@@ -1,8 +1,8 @@
-.hamburger {
+.hamburger-menu {
 	background-color: white;
 }
 
-.burgers {
+.hamburger-divs {
     width: 35px;
     height: 5px;
     background-color: black;
