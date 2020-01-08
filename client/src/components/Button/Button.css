@@ -1,3 +1,11 @@
 button {
 	background-color: red;
 }
+
+.button-warning{
+	background-color: yellow;
+}
+
+.button-caution{
+	background-color: teal;
+}
