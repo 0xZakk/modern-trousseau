@@ -3,14 +3,13 @@ import { storiesOf } from '@storybook/react';
 
 import DatePicker from './DatePicker';
 
-function Child(props) {
-    function handleChange(event) {
-        // Child component called by parent with props.onChange
-        props.onChange(event.target.value);
-    }
-  
-    return <input value={props.value} onChange={handleChange} />
+
+function handleChange(e) {
+  e.preventDefault();
+  props.onChange(event.target.value);
 }
 
+
 storiesOf('DatePicker', module)
-    .add('DatePicker', () => <DatePicker label={"Requested Date*"} value={"November 11"} min={"February 29, 2020"} step="1" max={"February 28, 2022"} />)
+
+    .add('DatePicker', () => <DatePicker label={"Requested Date*"} name={"Requested Date"} value={"November 11"} min={"February 29, 2020"} step={"1"} max={"February 28, 2022") onChange={handleChange}/>)
