@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import Menu from './Flagship';
 
-import Flagship from './Flagship';
 
 storiesOf('Flagship Menu', module)
-    .add('Primary', () => <Button>This is a Button</Button>)
+    .add('Primary', () => (<Menu />))
