@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./Bridal-Appt.css";
+import React from "react";
+import "./BridalAppointment.css";
 import Icons from '../Icons/FAIcon'
 
 let defaultView = false;
