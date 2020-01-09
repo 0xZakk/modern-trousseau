@@ -1,6 +1,16 @@
-import React from "react";
-import "./SelectDropdown.css";
+// import React from "react";
+// import "./SelectDropdown.css";
 
-const SelectDropdown = props => <button>{props.children}</button>;
+// const options = props.options.map(option => (
+//   <option value={option}>{option}</option>
+// ));
 
-export default SelectDropdown;
+// const SelectDropdown = props => (
+//   <>
+//     <select onClick={props.onClick}>
+//       <options />
+//     </select>
+//   </>
+// );
+
+// export default SelectDropdown;
