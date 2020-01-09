@@ -1,37 +1,33 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { useState } from 'react';
+import { storiesOf } from '@storybook/react'; 
 import Hamburger from './Hamburger';
 
-// let typeName = "Bars";
-// let iconName = "bars"
+let burger = "hamburgerBars";
+let icons = "bars";
 
-// function toggle(e) {
-//     e.preventDefault()
-//     if (iconName === "bars") {
-//         iconName = "times"
-//     } else {
+function switchMenu() {
+    // const [burger, setBurger] = useState("hamburgerTimes");
+    const [icons, setIcons] = useState("times");
+}
 
-//     }
-// }
+function switchBack() {
+    // const [burger, setBurger] = useState("hamburgerBars");
+    const [icons, setIcons] = useState("bars");
+}
 
-// function toggle(e) {
-//     e.preventDefault();
-//     if (iconName === "bars"){
-//         iconName = "times"
-//         typeName = "Times"
-//         alert(iconName + typeName);
-//     }else{
-//         iconName = "bars"
-//         typeName = "Bars"
-//         alert(typeName);
-//     }
+function handleClick() {
+    console.log(burger)
+    if(burger == "hambugerBars" && icons == "bars"){
+    return(switchMenu)
+    }
+    else{
+    return(switchBack)
     
+    }
     
-// }
-
+}
 
 storiesOf('Hamburger', module)
     .add('Hamburger', () => 
-    <Hamburger type="icon" icon="bars">
-    </Hamburger>)
+    <Hamburger className={burger} icon={icons} onClick={handleClick}></Hamburger>)
+
