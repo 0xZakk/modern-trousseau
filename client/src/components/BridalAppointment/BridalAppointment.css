@@ -48,7 +48,6 @@
   line-height: 19px;
 }
 
-
 .appt-confirmed-mobile {
   text-align: left;
   background-color: #fae5dc;
@@ -71,14 +70,6 @@ h4 {
   margin: 0;
 }
 
-.appt-default h4 {
-  margin: 0 5px 10px;
-}
-
-.appt-confirmed-mobile h4 {
-  margin: 0 0 10px;
-}
-
 .main-text {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -89,3 +80,34 @@ h4 {
   line-height: normal;
 }
 
+.times-close {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  padding: 0 15px 0 0;
+}
+
+.thankyou-info-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.dress-icon {
+
+}
+
+.thankYou {
+  display: flex;
+  flex-flow: wrap;
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+  flex-flow: wrap;
+}
+.flex1 {
+  display: flex;
+  flex-flow: wrap;
+}
