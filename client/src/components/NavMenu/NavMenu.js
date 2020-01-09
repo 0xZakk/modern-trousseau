@@ -35,6 +35,7 @@ const NavMenu = props => (
         <li>
           <Link to="#">
             <h3 className="nav-title">About Us</h3>
+            <span className="dots">&#9679;</span>
           </Link>
         </li>
       </ul>
