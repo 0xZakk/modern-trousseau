@@ -5,4 +5,4 @@ import Logo from "./Logo";
 
 storiesOf("Logo", module)
   .add("Logo", () => <Logo />)
-  .add("Logo without tag", () => <Logo type="no-tag" />);
+  .add("Logo without tag", () => <Logo notag />);
