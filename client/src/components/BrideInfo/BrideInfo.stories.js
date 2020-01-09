@@ -2,21 +2,22 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { configure } from "@storybook/react";
 
-const loaderFn = () => ([
-  require('../TextInputComponent/TextInput.stories'),
-  require('../DatePicker/DatePicker.stories'),
-]);
-
-configure(loaderFn, module);
+import BrideInfo from './BrideInfo'
 
 function handleClick(e) {
   e.preventDefault();
   alert("You clicked the button");
 }
 
-storiesOf("Button", module)
+storiesOf("BrideInfo", module)
   .add("Primary", () => (
-    <DatePicker label="Requested Date*" onChnage={handleClick} />
+    <BrideInfo 
+    label={"Requested Date*"} 
+    name={"Requested Date"} 
+    value={"November 12"} 
+    min={"February 29, 2020"} 
+    step={"1"} 
+    max={"February 28, 2022"} 
+    onChange={e => useState({ value: e.target.value })} />
   ))
-  .add("Success", () => <Button label="Success" type="success" />)
  
