@@ -7,8 +7,6 @@ const SelectDropdown = props => (
       {props.option.map(element => (
         <option value={element}>{element}</option>
       ))}
-
-      {/* <option value={props.option}>{props.option}</option> */}
     </select>
   </>
 );
