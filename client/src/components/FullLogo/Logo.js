@@ -12,13 +12,13 @@ const Logo = (props) => {
     }
 
 return <>
-        <div className="logo-tag">
-            <div className="logo">
-            <p className="modern">Modern</div>
-            <p className="trouseau">trousseau</div>
-            </div>
-            <div className={classList}>designed & made with love in the usa</div>
-         </div>
-         </>
+<div className="logo-tag">
+    <div className="logo">
+        <div className="modern">Modern</div>
+        <div className="trouseau">trousseau</div>
+    </div>
+    <div className={classList}>designed & made with love in the usa</div>
+</div>
+</>
 }
 export default Logo
