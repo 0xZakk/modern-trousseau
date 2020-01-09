@@ -1,6 +1,7 @@
 .flagship-container {
 	background-color: #FAE5DC;
 	max-width: 375px;
+	max-height: 729px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -9,28 +10,39 @@
 	display: flex;
 	align-items: center;
 }
-img {
+.flagship-city {
+
+}
+.flagship-image {
 	width: 100%;
 	height: 201px;
 	background-color: lightgray;
 }
-section {
+.flagship-section {
 	/*text-align: center;*/
 }
-h3 {
+.store-contact-info {
 	text-align: center;
 }
 .flagship-line {
 	/*width: 70%;*/
 }
 .flagship-info {
+	margin: 20px 0;
 	display: grid;
 	grid-template-columns: 20px 160px;
-	/*align-items: left;*/
+	grid-template-areas:
+		"ic ti"
+		".  in";
+}
+.flagship-icon {
+	grid-area: ic;
 }
 .contact-info-title {
 	margin: 0;
+	grid-area: ti;
 }
 .contact-info {
 	margin: 0;
+	grid-area: in;
 }
