@@ -5,7 +5,7 @@ import Icons from '../Icons/FAIcon'
 let defaultView = false;
 let infoView = true;
 
-function BridalAppt (props, defaultView, infoView, fullInfoView ) {
+function BridalAppointment (props, defaultView, infoView, fullInfoView ) {
   if (defaultView === true) {
     return (
       <div className="appt-container defaultView">
@@ -54,4 +54,4 @@ function BridalAppt (props, defaultView, infoView, fullInfoView ) {
 //   </div>
 // );
 
-export default BridalAppt;
+export default BridalAppointment;
