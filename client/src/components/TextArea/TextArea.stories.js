@@ -1,9 +1,9 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-import Text from "./Text";
+import TextArea from "./TextArea";
 
 storiesOf("Text", module).add("Default", () => (
-  <Text
+  <TextArea
     pClassList="text-area-title"
     titleClassList="title"
     textAreaClassList="text-area"

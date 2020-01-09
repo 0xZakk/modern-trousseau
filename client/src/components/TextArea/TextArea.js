@@ -1,7 +1,7 @@
 import React from "react";
-import "./Text.css";
+import "./TextArea.css";
 
-const Text = props => (
+const TextArea = props => (
   <div>
     <label className={props.titleClassList}>{props.title}</label>
     <textarea className={props.textAreaClassList} onChange={props.onChange}>
@@ -10,7 +10,7 @@ const Text = props => (
   </div>
 );
 
-export default Text;
+export default TextArea;
 
 {
   /* <p className={props.pClassList}>Is there anything else you want us to know?</p>; */
