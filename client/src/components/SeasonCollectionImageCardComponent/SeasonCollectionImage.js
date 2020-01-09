@@ -10,10 +10,9 @@ const SeasonCollectionImageCardComponent = props => (
   <div>
     <div className="season-collection-square">
       <div className="season-collection-image-container">
-        <img className="season-collection-image" src={imageFile1} />
-        <img className="season-collection-image" src={imageFile2} />
+        <img className="season-collection-image" src={imageFile1} alt="img" />
+        <img className="season-collection-image" src={imageFile2} alt="img" />
       </div>
-
       <p className="season-collection-text">
         {season} {year} Collection
       </p>
