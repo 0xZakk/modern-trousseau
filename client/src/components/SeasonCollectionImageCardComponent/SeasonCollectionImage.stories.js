@@ -5,5 +5,5 @@ import SeasonCollectionImageCardComponent from "./SeasonCollectionImage";
 
 storiesOf("SeasonCollectionImageCardComponent", module).add(
   "SeasonCollection",
-  () => <SeasonCollectionImageCardComponent />
+  () => <SeasonCollectionImageCardComponent season={"Fall"} year={"2020"} />
 );
