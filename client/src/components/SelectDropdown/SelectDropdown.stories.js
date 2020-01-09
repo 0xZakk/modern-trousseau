@@ -1,8 +1,22 @@
-// import React from "react";
-// import { storiesOf } from "@storybook/react";
+import React from "react";
+import { storiesOf } from "@storybook/react";
+import SelectDropdown from "./SelectDropdown";
 
-// import SelectDropdown from "./SelectDropdown";
+function handleClick(props) {
+  console.log(props);
+}
 
-// storiesOf("SelectDropdown", module).add("SelectDropdown", () => (
-//   <SelectDropdown options={"Baltimore, MD", "Charleston, SC", "Long Island, NY", "Louisville, KY", "Nashville, TN", "New Haven, CT", "Washington, DC"}/>
-// ));
+storiesOf("SelectDropdown", module).add("SelectDropdown", () => (
+  <SelectDropdown
+    option={[
+      "Baltimore, MD",
+      "Charleston, SC",
+      "Long Island, NY",
+      "Louisville, KY",
+      "Nashville, TN",
+      "New Haven, CT",
+      "Washington, DC"
+    ]}
+    onClick={handleClick}
+  />
+));
