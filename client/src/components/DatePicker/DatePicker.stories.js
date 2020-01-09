@@ -1,14 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 import DatePicker from './DatePicker';
 
-
-function handleChange(e) {
-  e.preventDefault();
-  props.onChange(event.target.value);
+function handleChange(event) {
+  console.log(event.target.value);
 }
-
 
 storiesOf('DatePicker', module)
 
