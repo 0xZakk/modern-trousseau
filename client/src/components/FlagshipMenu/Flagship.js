@@ -3,8 +3,6 @@ import './Flagship.css'
 import Icons from '../Icons/FAIcon'
 
 const Menu = (props) => {
-
-
 	return(
 		<div className='flagship-container'>
 			<header>
@@ -43,7 +41,5 @@ const Menu = (props) => {
 		</div>
 	)
 }
-
-
 
 export default Menu
