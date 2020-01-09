@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Route, Link } from 'react-router-dom'
 import './Flagship.css'
 import Icons from '../Icons/FAIcon'
 
@@ -6,7 +7,10 @@ const Menu = (props) => {
 	return(
 		<div className='flagship-container'>
 			<header className='flagship-header'>
-				<Icons className='flagship-icon' name={['fas', 'arrow-left']} size='xs' />
+				<Link to='#' className='arrow-icon-link'>
+					<Icons className='flagship-arrow-icon' name={['fas', 'arrow-left']} size='xs' />
+				</Link>
+				<Route path='#' /> 
 				<h2 className='flagship-city'>{props.city}</h2>
 			</header>
 			<img className='flagship-image' />
