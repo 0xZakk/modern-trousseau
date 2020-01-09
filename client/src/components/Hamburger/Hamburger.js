@@ -1,20 +1,25 @@
 import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-// import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import './Hamburger.css';
 
-// library.add(faBars, faTimes)
+library.add(faBars, faTimes)
 
-// const Hamburger = (props) => (
-//     <div>
-//       <FontAwesomeIcon icon="check-square" />
-//       Favorite beverage: <FontAwesomeIcon icon="coffee" />
-//     </div>
-//   )
-
-const Hamburger = (props) => <button className="hamburger-menu" onClick={props.onClick}>
-        <FontAwesomeIcon icon={faBars} />
+const Hamburger = (props) => {
+    let classList = "hamburger";
+    
+    let iconList = `${props.icon}`;
+    
+    let types = ['Bars', 'Times'];
+    if (types.includes(props.type)) {
+        classList += ` hamburger-${props.type}`
+    }
+    return (
+    <button className="hamburger-menu" onClick={props.onClick}>
+        <FontAwesomeIcon icon={iconList} className={classList}/>
     </button>
+    )
+};
 
-export default Hamburger
+export default Hamburger;

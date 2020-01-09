@@ -1,7 +1,18 @@
 .hamburger-menu {
-	background-color: white;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
 }
 
 .hamburger-menu:hover {
   cursor: pointer;
+}
+
+.hamburger-Bars {
+  font-size: 30px;
+}
+
+.hamburger-Times {
+  font-size: 30px;
 }
