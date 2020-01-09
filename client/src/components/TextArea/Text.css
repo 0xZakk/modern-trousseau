@@ -9,3 +9,9 @@
 .text-area-title {
   font-size: 30px;
 }
+
+.title {
+  font-size: 35px;
+  display: block;
+  margin-bottom: 15px;
+}
