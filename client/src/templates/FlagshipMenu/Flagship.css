@@ -5,7 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 }
-header {
+.flagship-header {
 	display: flex;
 	align-items: center;
 }
