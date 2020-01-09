@@ -1,0 +1,18 @@
+.flagship-container {
+	background-color: #FAE5DC;
+}
+header {
+	display: flex;
+	align-items: center;
+}
+.flagship-info {
+	display: grid;
+	grid-template-columns: 20px 160px;
+	align-items: center;
+}
+.contact-info-title {
+	margin: 0;
+}
+.contact-info {
+	margin: 0;
+}
