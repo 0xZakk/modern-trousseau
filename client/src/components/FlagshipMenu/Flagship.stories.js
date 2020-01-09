@@ -12,8 +12,8 @@ storiesOf('Flagship Menu', module)
     							 instagram='Need more inspo? Follow us at @moderntrousseaubaltimore'
 
     							 back-arrow={['fas', 'arrow-left']}
-    							 location={['fas', 'map-marker-alt']}
-    							 phone={['fas', 'phone-alt']}
-    							 email={['far', 'envelope']}
-    							 instagram={['fab', 'instagram']}
+    							 location-icon={['fas', 'map-marker-alt']}
+    							 phone-icon={['fas', 'phone-alt']}
+    							 email-icon={['far', 'envelope']}
+    							 instagram-icon={['fab', 'instagram']}
     						/>))
