@@ -5,7 +5,8 @@ import Hamburger from './Hamburger';
 
 function handleClick(e) {
     e.preventDefault();
-    alert("Open me baby!")
+    alert("Open me up baby!")
+    
 }
 
 storiesOf('Hamburger', module)
