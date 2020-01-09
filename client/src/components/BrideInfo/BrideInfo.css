@@ -1,0 +1,30 @@
+.button {
+  color: white;
+  border-radius: 2px;
+  padding: 5px 25px;
+}
+
+.button-large {
+  padding: 10px 50px;
+}
+
+.button-primary {
+  background-color: #0069d9;
+  border: #0069d9;
+}
+
+.button-success {
+  background-color: green;
+  border: green;
+}
+
+.button-danger {
+  background-color: red;
+  border: red;
+}
+
+.button-warning {
+  background-color: yellow;
+  border: yellow;
+  color: black;
+}
