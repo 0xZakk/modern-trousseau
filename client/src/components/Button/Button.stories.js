@@ -3,13 +3,12 @@ import { storiesOf } from '@storybook/react';
 import './Button.css'
 import Button from './Button';
 
-function myFunction (){
-    alert("details about dress");
-}  
+function handleClick(e) {
+    e.preventDefault();
+    alert("Dress Details")
+}
+
 
 storiesOf('Button', module)
-    .add('Primary', () => <Button>This is a Button</Button>)
-    .add('Details', () => <Button className="info"onclick={myFunction()}>+</Button>)
-
-
-  
+    .add('Primary', () => <Button label="This is a Button" type="primary"/>)
+    .add('Details', () => <Button label="+" type="details" onClick={handleClick} />)

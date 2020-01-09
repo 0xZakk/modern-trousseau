@@ -1,8 +1,11 @@
-/* button {
-	background-color: white;
 
-} */
-button {
+.button-primary {
+    color: white;
+    border-radius: 2px;
+    padding: 5px 25px;
+}
+
+.button-details {
 background-color: white;
 font-weight: bolder;	
 font-size: 50px;
@@ -11,5 +14,4 @@ justify-self: auto;
 border-radius: 5px;
 padding-bottom: 5px;
 justify-items: center;
-
 }
