@@ -4,4 +4,4 @@ import Menu from './Flagship';
 
 
 storiesOf('Flagship Menu', module)
-    .add('Primary', () => (<Menu />))
+    .add('Primary', () => (<Menu city='' image='' address='' phone='' email='' instagram='' />))
