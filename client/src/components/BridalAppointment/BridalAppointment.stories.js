@@ -19,16 +19,20 @@ storiesOf("Information Banner", module)
   ))
   .add("Book Appointment", () => (
     <InformationBanner>
-      <h2>Book Appointment</h2>
-      <p>
-        <Icons name={["fas", "calendar-day"]} size="xs" /> Thursday, November 7,
-        2019
-      </p>
-      <p>
-        <Icons name={["fas", "calendar-day"]} size="xs" /> Washington, DC
-      </p>
-      <p>
-        <Icons name={["fas", "calendar-day"]} size="xs" /> 9:00-10:00am
-      </p>
+      <div className="info-view">
+        <h4>Book Appointment</h4>
+        <div className="icon-container">
+          <p className="icon-details">
+            <Icons name={["fas", "calendar-day"]} size="xs" /> Thursday,
+            November 7, 2019
+          </p>
+          <p className="icon-details">
+            <Icons name={["fas", "calendar-day"]} size="xs" /> Washington, DC
+          </p>
+          <p className="icon-details">
+            <Icons name={["fas", "calendar-day"]} size="xs" /> 9:00-10:00am
+          </p>
+        </div>
+      </div>
     </InformationBanner>
   ));

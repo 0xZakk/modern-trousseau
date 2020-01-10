@@ -2,13 +2,20 @@
   display: flex;
   flex-flow: column;
   padding: 1.5em 1em;
-}
-
-.default-view {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
+.info-view {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+}
+
 
 h4 {
   font-family: "Raleway", sans-serif;
@@ -19,7 +26,6 @@ h4 {
   letter-spacing: 0;
   color: #000000;
   padding: 0;
-  margin: 0 0 10px;
 }
 
 p.main-text {
@@ -27,13 +33,18 @@ p.main-text {
   line-height: 18px;
 }
 
-.dress-icon {
-  display: flex;
+.info-view .icon-container {
+  display: block;
+  width: 100%;
 }
 
-.dress-icon-hidden {
-  display: none;
+.info-view .icon-container .icon-details {
+  display: flex;
+  flex-flow: wrap;
+  text-indent: 20px;
+  margin: 10px 0 0;
 }
+
 
 @media only screen and (min-width: 735px) {
   .appt-container {
