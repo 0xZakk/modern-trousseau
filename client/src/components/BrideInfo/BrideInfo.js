@@ -4,6 +4,7 @@ import TextInput from "../TextInputComponent/TextInput";
 
 const BrideInfo = props => (
   <div>
+  <label className="menu-label">Bride Info</label>
     <TextInput
       label={"Full Name*"}
       type={"text"}

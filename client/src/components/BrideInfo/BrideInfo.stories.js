@@ -1,6 +1,6 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
-
+import './BrideInfo.css';
 
 import BrideInfo from './BrideInfo'
 
@@ -15,6 +15,6 @@ function handleChange(event) {
 
 storiesOf("BrideInfo", module)
   .add("Menu", (props) => (
-    <BrideInfo onClick={handleClick} onChange={handleChange}/>
+    <BrideInfo className='label-name' onClick={handleClick} onChange={handleChange}/>
   ))
  
