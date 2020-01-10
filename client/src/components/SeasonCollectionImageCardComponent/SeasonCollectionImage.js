@@ -3,21 +3,13 @@ import "./SeasonCollectionImage.css";
 
 const SeasonCollectionImageCardComponent = props => (
   <div>
-    <div className="season-collection-square">
+    <div className="primary-pink">
       <div className="season-collection-image-container">
-        <img
-          className="season-collection-image"
-          src={props.image1}
-          alt="image"
-        />
-        <img
-          className="season-collection-image"
-          src={props.image2}
-          alt="image"
-        />
+        <img src={props.image1} alt="image" />
+        <img src={props.image2} alt="image" />
       </div>
 
-      <h5>
+      <h5 className="season-collection-text">
         {props.season} {props.year} Collection
       </h5>
     </div>

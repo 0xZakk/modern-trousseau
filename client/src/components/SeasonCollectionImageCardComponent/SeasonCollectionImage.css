@@ -1,31 +1,15 @@
 .season-collection-text {
-  /* font-family: "Playfair Display", serif; */
   text-align: center;
-  font-size: 14px;
   padding-top: 0px;
   padding-bottom: 5px;
-  /* figma shows bold but bold does not work */
-  font-weight: bold;
   margin: 5px;
 }
 .season-collection-image-container {
   display: flex;
   margin: 0px;
-  padding: 0px;
+  padding: 20px;
   justify-content: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.season-collection-image {
-  margin-top: 20px;
-  width: 70%;
-  max-width: 200px;
-  margin-left: 3px;
-  margin-right: 3px;
-}
-
-.season-collection-square {
-  height: 60%;
-  background-color: rgba(249, 218, 205, 0.4);
-}
-
-/* @import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"); */
