@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
-import './Flagship.css'
+import './FlagshipMenu.css'
 import Icons from '../Icons/FAIcon'
 
-const Menu = (props) => {
+const FlagshipMenu = (props) => {
 	return(
 		<div className='flagship-container'>
 			<header className='flagship-header'>
@@ -20,30 +20,26 @@ const Menu = (props) => {
 				<div className='flagship-info'>
 					<Icons className='flagship-icon' name={['fas', 'map-marker-alt']} />
 					<h4 className='contact-info-title'>Address</h4>
-
 					<p className='contact-info'>{props.address}</p>
 				</div>
 				<div className='flagship-info'>
 					<Icons className='flagship-icon' name={['fas', 'phone-alt']} />
 					<h4 className='contact-info-title'>Phone</h4>
-
 					<p className='contact-info'>{props.phone}</p>
 				</div>
 				<div className='flagship-info'>
 					<Icons className='flagship-icon' name={['far', 'envelope']} />
 					<h4 className='contact-info-title'>Email</h4>
-
 					<p className='contact-info'>{props.email}</p>
 				</div>
 				<div className='flagship-info'>
 					<Icons className='flagship-icon' name={['fab', 'instagram']} />
 					<h4 className='contact-info-title'>Instagram</h4>
-
-					<p className='contact-info'>{props.instagram}</p>
+					<p className='contact-info'>Need more inspo? Follow us at {props.instagram}</p>
 				</div>
 			</section>
 		</div>
 	)
 }
 
-export default Menu
+export default FlagshipMenu

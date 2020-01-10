@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Menu from './Flagship';
+import FlagshipMenu from './Flagship';
 
 
 storiesOf('Flagship Menu', module)
@@ -9,5 +9,5 @@ storiesOf('Flagship Menu', module)
     							 address='1429 Aliceanna Street Baltimore, MD 21231' 
     							 phone='(443) 447-8929' 
     							 email='baltimore@moderntrousseau.com' 
-    							 instagram='Need more inspo? Follow us at @moderntrousseaubaltimore'
+    							 instagram='@moderntrousseaubaltimore'
     						/>))
