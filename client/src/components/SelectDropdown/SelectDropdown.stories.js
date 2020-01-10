@@ -2,8 +2,8 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import SelectDropdown from "./SelectDropdown";
 
-function handleClick(props) {
-  console.log(props);
+function handleChange(e) {
+  console.log(e.target.value);
 }
 
 storiesOf("SelectDropdown", module).add("SelectDropdown", () => (
@@ -17,6 +17,6 @@ storiesOf("SelectDropdown", module).add("SelectDropdown", () => (
       "New Haven, CT",
       "Washington, DC"
     ]}
-    onClick={handleClick}
+    onChange={handleChange}
   />
 ));
