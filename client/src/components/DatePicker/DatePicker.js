@@ -1,5 +1,8 @@
 import React from 'react'
 import './DatePicker.css'
+import imageFile from '../../images/Search Icon_outlined.svg'
+
+
 const DatePicker = (props) => 
 <div>
   <label className="date-picker" for='requested-date-input'>{props.label}</label>
