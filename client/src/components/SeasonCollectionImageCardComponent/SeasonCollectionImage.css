@@ -1,5 +1,5 @@
 .season-collection-text {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   text-align: center;
   font-size: 14px;
   padding-top: 0px;
@@ -28,4 +28,4 @@
   background-color: rgba(249, 218, 205, 0.4);
 }
 
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"); */
