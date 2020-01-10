@@ -1,5 +1,29 @@
-.navBar {
+.nav-bar {
     display: flex;
-    width: 30vh;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
+
+.nav-icons {
+    padding: 0px 10px;
+}
+
+.desktop {
+    padding: 0px 10px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+      width: 100%; 
+      justify-content: space-between;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+  }
