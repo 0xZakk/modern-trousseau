@@ -8,6 +8,7 @@ function handleChange(e) {
 
 storiesOf("SelectDropdown", module).add("SelectDropdown", () => (
   <SelectDropdown
+    className={"selectDropdown"}
     option={[
       "Baltimore, MD",
       "Charleston, SC",

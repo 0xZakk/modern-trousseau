@@ -3,7 +3,7 @@ import "./SelectDropdown.css";
 
 const SelectDropdown = props => (
   <>
-    <select onChange={props.onChange}>
+    <select className={props.className} onChange={props.onChange}>
       {props.option.map((element, index) => (
         <option key={index} value={element}>
           {element}
