@@ -8,7 +8,7 @@ function handleChange(event) {
 
 const SignupCard = props => (
   <div className="container">
-    <div className="text">Obsessed with a dress?
+    <div className="text">Obsessed with a dress?</div>
     <div className="signup">
       {" "}
       <TextInput
@@ -16,8 +16,9 @@ const SignupCard = props => (
         placeholder={"Sign up here"}
         onChange={handleChange}
       />
+      <button>dgdsfsdf</button>
       </div>
-    </div>
+    
   </div>
 );
 
