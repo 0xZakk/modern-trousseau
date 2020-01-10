@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.bridal-appt-desktop {
+  display: none;
+}
+
 .info-view {
   display: flex;
   flex-flow: column;
@@ -49,9 +53,12 @@ p.main-text {
   line-height: 18px;
 }
 
+.width-max {
+  max-width: 70%;
+}
+
 @media only screen and (min-width: 735px) {
   .appt-container {
-    background-color: #ffffff;
     width: 50%;
     margin: 0 auto;
   }
@@ -77,6 +84,23 @@ p.main-text {
 
   .info-view {
     align-items: center;
+  }
+
+  .background-white {
+    background-color: #ffffff;
+  }
+
+  .bridal-appt-desktop {
+    display: block;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .dress-icon {
+    margin: 2em auto;
   }
 }
 
