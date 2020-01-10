@@ -17,9 +17,9 @@ const SeasonCollectionImageCardComponent = props => (
         />
       </div>
 
-      <p className="season-collection-text">
+      <h2 className="season-collection-text">
         {props.season} {props.year} Collection
-      </p>
+      </h2>
     </div>
   </div>
 );
