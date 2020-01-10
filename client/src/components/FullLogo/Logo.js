@@ -4,10 +4,14 @@ import "./Logo.css";
 const Logo = props => {
   let classList = "logo-tag";
 
-  let types = ["logo", "notag"];
+  let types = ["logo", "notag", "tagline"];
 
   if (types.includes(props.type)) {
     classList += ` ${props.type}`;
+  }
+
+  if (props.tagline) {
+      classList += ` tagline`
   }
 
   if (props.notag) {
@@ -18,8 +22,8 @@ const Logo = props => {
     <>
       <div className="logo-tag">
         <div className="logo">
-          <div className="modern">Modern</div>
-          <div className="trousseau">trousseau</div>
+          <h1 className="logo-word-modern">Modern</h1>
+          <h1 className="logo-word-trousseau">trousseau</h1>
         </div>
         <div className={classList}>designed & made with love in the usa</div>
       </div>

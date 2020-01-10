@@ -4,5 +4,5 @@ import { storiesOf } from "@storybook/react";
 import Logo from "./Logo";
 
 storiesOf("Logo", module)
-  .add("Logo", () => <Logo />)
+  .add("Logo", () => <Logo tagline />)
   .add("Logo without tag", () => <Logo notag />);
