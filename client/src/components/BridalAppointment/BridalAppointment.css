@@ -16,7 +16,6 @@
   width: 100%;
 }
 
-
 h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
@@ -43,8 +42,12 @@ p.main-text {
   flex-flow: wrap;
   text-indent: 20px;
   margin: 10px 0 0;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
 }
-
 
 @media only screen and (min-width: 735px) {
   .appt-container {
