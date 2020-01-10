@@ -4,18 +4,18 @@ import Button from "./Button";
 import "./Button.css";
 
 storiesOf("Button", module)
-  .add("light-pink", () => <Button label="Book Now" type="light-pink" />)
+  .add("Light Pink", () => <Button label="Book Now" type="light-pink" />)
 
-  .add("dark-pink", () => <Button label="DONE" type="dark-pink" />)
+  .add("Dark Pink", () => <Button label="DONE" type="dark-pink" />)
 
-  .add("red", () => (
+  .add("Red", () => (
     <Button label="Browse Dresses" type="red" large />
   ))
 
-  .add("grey", () => (
+  .add("Grey", () => (
     <Button label="Modern Trousseau Bride" type="grey" large />
   ))
 
-  .add("white", () => (
+  .add("White", () => (
     <Button label="Book Appointment" type="white" large />
   ));
