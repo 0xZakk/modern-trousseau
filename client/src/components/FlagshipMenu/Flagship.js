@@ -8,7 +8,7 @@ const Menu = (props) => {
 		<div className='flagship-container'>
 			<header className='flagship-header'>
 				<Link to='#' className='arrow-icon-link'>
-					<Icons className='flagship-arrow-icon' name={['fas', 'arrow-left']} size='xs' />
+					<Icons className='flagship-arrow-icon' name={['fas', 'arrow-left']} size='lg' />
 				</Link>
 				<Route path='#' /> 
 				<h2 className='flagship-city'>{props.city}</h2>
