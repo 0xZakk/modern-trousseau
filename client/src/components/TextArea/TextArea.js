@@ -9,9 +9,11 @@ const TextArea = props => (
       <label></label>
     )}
 
-    <textarea className="text-area" onChange={props.onChange}>
-      {props.value}
-    </textarea>
+    <textarea
+      className="text-area"
+      onChange={props.onChange}
+      placeholder={props.placeholder}
+    ></textarea>
   </div>
 );
 
