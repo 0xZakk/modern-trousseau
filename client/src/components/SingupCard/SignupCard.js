@@ -9,7 +9,7 @@ function handleChange(event) {
 
 const SignupCard = props => (
   <div className="container">
-    <div className="text">Obsessed with a dress?</div>
+    <div className="text main-text">Obsessed with a dress?</div>
     <div className="signup">
       {" "}
       <TextInput

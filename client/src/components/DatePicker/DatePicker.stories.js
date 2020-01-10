@@ -6,7 +6,7 @@ import DatePicker from './DatePicker';
 
 function handleChange(e, props) {
   e.preventDefault();
-  props.onChange(event.target.value);
+  props.onChange(e.target.value);
 }
 
 
