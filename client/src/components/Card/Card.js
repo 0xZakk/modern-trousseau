@@ -4,9 +4,9 @@ import Icons from '../Icons/FAIcon'
 
 const Card = (props) => {
 	return(
-		<div className='card-container'>
+		<div className='card-container primary-pink'>
 			<Icons name={props.icon} size='3x' />
-			<h4 className='card-title'>{props.title}</h4>
+			<div className='card-title'>{props.title}</div>
 			<p className='card-paragraph'>{props.paragraph}</p>
 		</div>
 	)
