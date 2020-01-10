@@ -1,5 +1,4 @@
 .appt-container {
-  background-color: #fae5dc;
   display: flex;
   flex-flow: column;
   padding: 1.5em 1em;
@@ -24,15 +23,8 @@ h4 {
 }
 
 p.main-text {
-  font-family: "Raleway", sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  letter-spacing: 0;
-  color: #000000;
-  line-height: normal;
-  margin: 0;
-  padding: 0;
+  line-height: 18px;
 }
 
 .dress-icon {

@@ -5,10 +5,10 @@ import InformationBanner from "./BridalAppointment";
 import Icons from "../Icons/FAIcon";
 
 storiesOf("Information Banner", module)
-  .add("Bridal Appointments", () => (
+  .add("Bridal Appointment Default", () => (
     <InformationBanner>
-      <h2>Book Appointments</h2>
-      <p>
+      <h4>Book Appointments</h4>
+      <p className="main-text">
         Modern Trousseau appointments are truly about you, the bride. Our
         Flagship stores offer private appointment for you, your family and
         friends, to create your dream wedding gown. With every Modern Trousseau
