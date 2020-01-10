@@ -42,7 +42,7 @@ p.main-text {
   flex-flow: wrap;
   text-indent: 20px;
   margin: 10px 0 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -52,14 +52,31 @@ p.main-text {
 @media only screen and (min-width: 735px) {
   .appt-container {
     background-color: #ffffff;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
   }
+
   .h4 {
     font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    padding-bottom: 15px;
+  }
+
+  .info-view .icon-container .icon-details {
+    display: flex;
+    flex-flow: wrap;
+    margin: 10px 0 0;
+    text-indent: 20px;
+    font-family: "Playfair Display";
+    font-weight: 300;
     font-size: 24px;
-    font-weight: 600;
     line-height: 32px;
+  }
+
+  .info-view {
+    align-items: center;
   }
 }
 

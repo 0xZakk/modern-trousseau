@@ -20,7 +20,7 @@ storiesOf("Information Banner", module)
   .add("Book Appointment", () => (
     <InformationBanner>
       <div className="info-view">
-        <h4>Book Appointment</h4>
+        <h4 className="h4">Book Appointment</h4>
         <div className="icon-container">
           <p className="icon-details">
             <Icons name={["fas", "calendar-day"]} size="sm" />&nbsp;&nbsp;Thursday,
