@@ -1,7 +1,5 @@
 import React from "react";
 import "./SeasonCollectionImage.css";
-import imageFile1 from "../SeasonCollectionImageCardComponent/SeasonCollectionAssetDirectory/Image 1.svg";
-import imageFile2 from "../SeasonCollectionImageCardComponent/SeasonCollectionAssetDirectory/Image 2.svg";
 
 const SeasonCollectionImageCardComponent = props => (
   <div>
