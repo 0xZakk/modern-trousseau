@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+=======
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import NavMenu from './components/NavMenu/NavMenu';
+
+>>>>>>> develop
 
 function App() {
   return (
