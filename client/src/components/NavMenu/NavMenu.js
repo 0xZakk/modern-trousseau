@@ -4,7 +4,7 @@ import "./NavMenu.css";
 
 const NavMenu = props => (
   <div
-    className={props.isVisible ? "nav-container" : "nav-container is-visible"}
+    className={props.isVisible ? "primary-pink nav-container" : "primary-pink nav-container is-visible"}
   >
     <nav>
       <ul>
