@@ -9,10 +9,7 @@
   cursor: pointer;
 }
 
-.hamburgerBars {
+.hamburgerIcon {
   font-size: 30px;
-}
-
-.hamburgerTimes {
-  font-size: 30px;
+  transition: 0.2s;
 }
