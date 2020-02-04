@@ -39,10 +39,14 @@
   margin-bottom: 0;
 }
 
+/* .image-1 {
+  font-family: 'Raleway';
+} */
+
 .slide-text {
   text-align: center;
   margin: 0;
   font-weight: bold;
-  font-family: Raleway;
   font-style: normal;
+  font-family: 'Raleway';
 }
