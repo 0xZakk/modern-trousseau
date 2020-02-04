@@ -48,10 +48,5 @@ const slideData = [
 ];
 
 storiesOf("Slider", module).add("Gown Display Slider", () => (
-  <Slider 
-    slideData={slideData}
-    title="Classics">
-
-  </Slider>
+  <Slider slideData={slideData} title="Classics"></Slider>
 ));
-
