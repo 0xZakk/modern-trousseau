@@ -79,22 +79,31 @@ class Slider extends React.Component {
 
   prevProperty = () => {
       if (this.state.property.index >= 0) {
-    const newIndex = this.state.property.index - 1;
-    this.setState({
+          console.log(this.state.property.index)
+          const newIndex = this.state.property.index - 1;
+          this.setState({
       property: slides.properties[newIndex]
     })} if (this.state.property.index == 0) {
-    const newIndex = slides.properties.length - 1;
-    this.setState({
-      property: slides.properties[newIndex]
+          console.log(this.state.property.index)
+          const newIndex = slides.properties.length - 1;
+          this.setState({
+          property: slides.properties[newIndex]
     })}
   };
 
   nextProperty = () => {
-    const newIndex = this.state.property.index + 1;
-    this.setState({
+    if (this.state.property.index >= 0) {
+      console.log(this.state.property.index)
+      const newIndex = this.state.property.index + 1;
+      this.setState({
       property: slides.properties[newIndex]
-    });
-  };
+})} if (this.state.property.index == slides.properties.length - 1) {
+      console.log(this.state.property.index)
+      const newIndex = 0;
+      this.setState({
+      property: slides.properties[newIndex]
+})}
+};
 
   render() {
     const { properties, property } = this.state;
@@ -104,7 +113,6 @@ class Slider extends React.Component {
         <button
             className="button"
             onClick={() => this.prevProperty()}
-            disabled={property.index === slides.properties.length - 1}
           >
             &#10094;
           </button>
@@ -114,7 +122,6 @@ class Slider extends React.Component {
           <button
             className="button"
             onClick={() => this.nextProperty()}
-            disabled={property.index === slides.properties.length - 1}
           >
             &#10095;
           </button>
