@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.appt-background {
+  background-color: #fae5dc;
+}
+
 .bridal-appt-desktop {
   display: none;
 }
@@ -78,7 +82,7 @@ p.main-text {
     font-size: 36px;
     font-weight: 300;
     line-height: 48px;
-    padding-bottom: 15px;
+    padding-bottom: 55px;
   }
 
   .info-view .icon-container .icon-details {
@@ -96,7 +100,7 @@ p.main-text {
     align-items: center;
   }
 
-  .background-white {
+  .appt-background {
     background-color: #ffffff;
   }
 
