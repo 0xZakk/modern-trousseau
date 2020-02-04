@@ -2,7 +2,7 @@ import React from "react";
 import "./TextArea.css";
 
 const TextArea = props => (
-  <div>
+  <div className="text-box">
     {props.hasLabel ? (
       <label className="text-area-label">{props.label}</label>
     ) : (
