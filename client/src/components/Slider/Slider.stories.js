@@ -22,7 +22,7 @@ const slideData = [
     index: 0
   },
   {
-    title: "Spring 2020 Collection",
+    title: "Fall 2020 Collection",
     imga: imageFile3,
     imgb: imageFile4,
     labela: "AlWAYS",
@@ -30,7 +30,7 @@ const slideData = [
     index: 1
   },
   {
-    title: "Trending Now",
+    title: "Fall 2020 Collection",
     imga: imageFile5,
     imgb: imageFile6,
     labela: "ALICE",
@@ -38,7 +38,7 @@ const slideData = [
     index: 2
   },
   {
-    title: "Classics",
+    title: "Fall 2020 Collection",
     imga: imageFile7,
     imgb: imageFile8,
     labela: "AINSLEY",
