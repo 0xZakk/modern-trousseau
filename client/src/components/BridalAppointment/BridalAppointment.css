@@ -1,7 +1,7 @@
 .appt-container {
   display: flex;
   flex-flow: column;
-  padding: 1.5em 1.4em;
+  padding: 1em;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -11,8 +11,10 @@
   background-color: #fae5dc;
 }
 
-.bridal-appt-desktop {
-  display: none;
+.bridal-appt-h4 {
+  line-height: 120%;
+  margin: 0 auto;
+  padding-bottom: 15px;
 }
 
 .info-view {
@@ -33,11 +35,6 @@ h4 {
   letter-spacing: 0;
   color: #000000;
   padding: 0;
-}
-
-h4.mobile-default-info {
-  margin: 0 auto;
-  padding-bottom: 15px;
 }
 
 p.main-text {
@@ -69,6 +66,69 @@ p.main-text {
 
 .dress-icon {
   display: none;
+}
+
+/* Confirmation Info */
+.times-close {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end !important;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.appt-confirmation {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.appt-img {
+  display: flex;
+}
+
+.confirmation-info {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+}
+
+.appt-name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.appt-name-sub {
+  font-family: "Raleway";
+  font-size: 11px;
+  line-height: 16px;
+  text-align: left;
+  padding: 10px 0 0 20px;
+}
+
+.appt-data {
+  text-align: left;
+}
+
+.appt-data .appt-details {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 10px;
+}
+
+.appt-btn {
+  margin: 15px auto 10px;
+}
+
+.appt-btn-2 {
+  margin: 15px auto 20px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -104,7 +164,7 @@ p.main-text {
     background-color: #ffffff;
   }
 
-  .bridal-appt-desktop {
+  .bridal-appt-h4 {
     display: block;
     font-family: "Playfair Display";
     font-style: normal;
@@ -120,5 +180,6 @@ p.main-text {
 
   .width-max {
     display: block;
+    max-width: 100%;
   }
 }
