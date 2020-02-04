@@ -32,12 +32,14 @@ class Slider extends React.Component {
 
   prevProperty = () => {
     if (this.state.property.index >= 0) {
+      console.log(this.state.property.index)
       const newIndex = this.state.property.index - 1;
       this.setState({
         property: this.props.slideData[newIndex]
       });
     }
     if (this.state.property.index == 0) {
+      console.log(this.state.property.index)
       const newIndex = this.state.property.index - 1;
       this.setState({
         property: this.props.slideData[newIndex]
@@ -47,12 +49,14 @@ class Slider extends React.Component {
 
   nextProperty = () => {
     if (this.state.property.index >= 0) {
+      console.log(this.state.property.index)
       const newIndex = this.state.property.index + 1;
       this.setState({
         property: this.props.slideData[newIndex]
       });
     }
     if (this.state.property.index == this.props.slideData.length - 1) {
+      console.log(this.state.property.index)
       const newIndex = 0;
       this.setState({
         property: this.props.slideData[newIndex]

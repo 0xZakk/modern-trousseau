@@ -7,8 +7,8 @@ class DisplayComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      properties: this.props.slideData,
-      property: this.props.slideData[0]
+      // properties: this.props.slideData,
+      // property: this.props.slideData[0]
     };
   }
   
