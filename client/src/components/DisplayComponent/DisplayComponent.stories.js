@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 
-import Slider from "../Slider/Slider.js";
+import Slider from "../Slider/Slider";
 import DisplayComponent from "../DisplayComponent/DisplayComponent";
 
 import imageFile1 from "../../Images/Fall-2020-1.png";
