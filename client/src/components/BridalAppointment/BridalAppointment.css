@@ -263,6 +263,10 @@ p.main-text {
   .appt-name-sub {
     padding: 10px 0 40px;
     text-align: center;
+    font-family: 'Playfair Display';
+  }
+  .appt-details {
+    font-family: 'Playfair Display';
   }
   .appt-btn {
     display: none;
