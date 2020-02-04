@@ -1,7 +1,7 @@
 .appt-container {
   display: flex;
   flex-flow: column;
-  padding: 1.5em 1em;
+  padding: 1.5em 1.4em;
   justify-content: center;
   align-items: center;
   text-align: center;
