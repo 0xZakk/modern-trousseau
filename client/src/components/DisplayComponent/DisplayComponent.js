@@ -17,7 +17,7 @@ class DisplayComponent extends React.Component {
     return (
       <div>
         <h3 className="display-component-title">GOWNS</h3>
-        <Slider className="slider-1"></Slider>
+        <Slider></Slider>
         {/* <Slider className="slider-2"></Slider>
         <Slider className="slider-3"></Slider>
         <Slider className="slider-4"></Slider> */}
