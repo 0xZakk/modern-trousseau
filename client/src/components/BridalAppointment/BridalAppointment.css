@@ -75,14 +75,22 @@ p.main-text {
   justify-content: flex-end !important;
   width: 100%;
   padding-right: 15px;
+  cursor: pointer;
 }
 
 .appt-confirmation {
   display: flex;
   flex-flow: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
+}
+
+.appt-confirmation-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .appt-img {
@@ -92,7 +100,9 @@ p.main-text {
 .confirmation-info {
   display: flex;
   flex-flow: column;
-  width: 80%;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
 }
 
 .appt-name {
@@ -115,6 +125,7 @@ p.main-text {
 
 .appt-data {
   text-align: left;
+  padding-left: 20px;
 }
 
 .appt-data .appt-details {
@@ -129,6 +140,35 @@ p.main-text {
 
 .appt-btn-2 {
   margin: 15px auto 20px;
+}
+
+.hr-line {
+  border: 0.4px solid #000000;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.appt-store-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.appt-store-title {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.appt-store-text {
+  width: 85%;
+  margin: 0 auto 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -181,5 +221,56 @@ p.main-text {
   .width-max {
     display: block;
     max-width: 100%;
+  }
+
+  /* Confirmation */
+
+  .times-close {
+    display: none;
+  }
+
+  .appt-confirmation {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .appt-confirmation-container {
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .appt-img {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+
+  .appt-img img {
+    display: block;
+    height: 98px;
+  }
+
+  .confirmation-info {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .appt-name-sub {
+    padding: 10px 0 40px;
+    text-align: center;
+  }
+  .appt-btn {
+    display: none;
+  }
+  .appt-btn-2 {
+    display: none;
+  }
+  .hr-line {
+    display: none;
   }
 }

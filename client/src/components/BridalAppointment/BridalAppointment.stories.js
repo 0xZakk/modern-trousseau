@@ -54,6 +54,7 @@ storiesOf("Information Banner", module)
         <Icons name={["fas", "times"]} />
       </div>
       <div className="appt-confirmation">
+        <div className="appt-confirmation-container">
         <div className="appt-img">
           <img src={Tassel} className="appt-icon" />
         </div>
@@ -83,6 +84,13 @@ storiesOf("Information Banner", module)
             <div className="appt-btn-2">
             <Button label="Watch Our Video" type="red" large />
           </div>
+        </div>
+        </div>
+        <hr className="hr-line" />
+        <div className="appt-store-info">
+          <div className="appt-store-title">STORE CONTACT INFO</div>
+          <div className="appt-store-text">Modern Trousseau Washington DC 1523 Wisconsin Ave NW Washington, DC 20007 (202) 803-0065 dc@moderntrousseau.com @ ModernTrousseauDC</div>
+
         </div>
       </div>
     </InformationBanner>
