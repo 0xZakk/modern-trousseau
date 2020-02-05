@@ -13,6 +13,14 @@
 }
 
 .text-box {
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  align-self: center;
+}
+
+.text {
+  align-self: center;
 }

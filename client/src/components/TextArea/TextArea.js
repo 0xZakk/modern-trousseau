@@ -4,16 +4,20 @@ import "./TextArea.css";
 const TextArea = props => (
   <div className="text-box">
     {props.hasLabel ? (
-      <label className="text-area-label">{props.label}</label>
+      <div className="label">
+        <label className="text-area-label">{props.label}</label>
+      </div>
     ) : (
       <label></label>
     )}
 
-    <textarea
-      className="text-area"
-      onChange={props.onChange}
-      placeholder={props.placeholder}
-    ></textarea>
+    <div className="text">
+      <textarea
+        className="text-area"
+        onChange={props.onChange}
+        placeholder={props.placeholder}
+      ></textarea>
+    </div>
   </div>
 );
 
