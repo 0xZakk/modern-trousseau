@@ -14,7 +14,6 @@ import imageFile8 from "../../Images/Classics-2.jpeg";
 
 const slideData = [
   {
-    title: "Fall 2020 Collection",
     imga: imageFile1,
     imgb: imageFile2,
     labela: "LUCA",
@@ -22,7 +21,6 @@ const slideData = [
     index: 0
   },
   {
-    title: "Fall 2020 Collection",
     imga: imageFile3,
     imgb: imageFile4,
     labela: "AlWAYS",
@@ -30,7 +28,6 @@ const slideData = [
     index: 1
   },
   {
-    title: "Fall 2020 Collection",
     imga: imageFile5,
     imgb: imageFile6,
     labela: "ALICE",
@@ -38,7 +35,6 @@ const slideData = [
     index: 2
   },
   {
-    title: "Fall 2020 Collection",
     imga: imageFile7,
     imgb: imageFile8,
     labela: "AINSLEY",
