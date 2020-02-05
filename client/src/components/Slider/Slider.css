@@ -44,9 +44,9 @@
 .slide-text {
   text-align: center;
   margin: 0;
-  font-weight: bold;
-  /* font-style: normal; */
   font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .button-icon {
