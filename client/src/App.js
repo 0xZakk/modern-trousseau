@@ -1,8 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import NavMenu from './components/NavMenu/NavMenu';
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,9 +15,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        ></a>
       </header>
     </div>
   );
