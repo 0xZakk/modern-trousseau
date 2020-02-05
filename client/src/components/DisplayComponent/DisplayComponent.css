@@ -1,6 +1,6 @@
 .display-component-title {
     background-color: rgb(246, 230, 222);
-    width: 340px;
+    width: 328px;
     border-top: 18px solid rgb(246, 230, 222);
     border-bottom: 18px solid rgb(246, 230, 222);
     margin-bottom: 0;
@@ -55,19 +55,11 @@
     margin: 0;
     font-weight: bold;
   }
-.carousel-1 {
-    display: flex;
-    width: 340px;
-    margin-bottom: 0;
-    margin-top: 0;
-    border-bottom: 5px solid rgb(246, 230, 222);
-  }
 
-.carousel-2 {
-    display: flex;
-    width: 340px;
-    margin-bottom: 0;
-    margin-top: 0;
-    border-top: 5px solid rgb(246, 230, 222);
 
-  }
+.collection-title {
+  background-color: rgb(246, 230, 222);
+  width: 328px;
+  border-left: 24px solid rgb(246, 230, 222);
+  font-weight: bold;
+}
