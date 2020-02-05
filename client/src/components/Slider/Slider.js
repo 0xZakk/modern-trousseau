@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./Slider.css";
 
 const Slide = ({ property }) => {
-  const { title, imga, imgb, labela, labelb, index } = property;
+  const { imga, imgb, labela, labelb, index } = property;
   return (
     <div id={`slide-${index}`} className="slide">
       <div className="slide-container">
