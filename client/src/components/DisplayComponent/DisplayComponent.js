@@ -19,13 +19,13 @@ class DisplayComponent extends React.Component {
     return (
       <div>
         <h3 className="display-component-title">GOWNS</h3>
-        <p className='collection-title'>Collection 1</p>
+        <p className='collection-title'>Fall 2020 Collection</p>
         <Slider slideData={this.state.properties} className=' slideshow collection-1'/>
-        <p className='collection-title'>Collection 1</p>
+        <p className='collection-title'>Spring 2020 Collection</p>
         <Slider slideData={this.state.properties} className=' slideshow collection-2'/>
-        <p className='collection-title'>Collection 1</p>
+        <p className='collection-title'>Trending Now</p>
         <Slider slideData={this.state.properties} className=' slideshow collection-3'/>
-        <p className='collection-title'>Collection 1</p>
+        <p className='collection-title'>Classics</p>
         <Slider slideData={this.state.properties} className=' slideshow collection-4'/>
       </div>
     );
