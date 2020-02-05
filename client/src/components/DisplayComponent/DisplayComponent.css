@@ -62,4 +62,22 @@
   width: 328px;
   border-left: 24px solid rgb(246, 230, 222);
   font-weight: bold;
+  border-top: 10px solid rgb(246, 230, 222);
+}
+
+/* .component-container {
+  background-color: rgb(246, 230, 222);
+} */
+
+.horiz-line {
+  background-color: rgb(246, 230, 222);
+  /* position: relative;
+  display: inline-block; */
+  border-left: 100px rgb(246, 230, 222);
+  border-right: 100px rgb(246, 230, 222);
+  padding-left: 288px;
+  padding-right: 40px;
+  margin: 0;
+  width: 30%;
+  border-bottom: 1px solid #7A7A7A;
 }

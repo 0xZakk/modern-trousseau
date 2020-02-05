@@ -4,6 +4,7 @@ import Slider from "../Slider/Slider"
 // import SignupCard from "./SignupCard"
 // import slideData from "../Slider/Slider"
 import "./DisplayComponent.css";
+import Logo from "../FullLogo/Logo"
 
 class DisplayComponent extends React.Component {
   constructor(props) {
@@ -17,8 +18,9 @@ class DisplayComponent extends React.Component {
   render() {
     console.log(this.state)
     return (
-      <div>
+      <div className="component-container">
         <h3 className="display-component-title">GOWNS</h3>
+        <hr class="horiz-line"></hr>
         <p className='collection-title'>Fall 2020 Collection</p>
         <Slider slideData={this.state.properties} className=' slideshow collection-1'/>
         <p className='collection-title'>Spring 2020 Collection</p>
