@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Slider from "../Slider/Slider"
+// import SignupCard from "./SignupCard"
 // import slideData from "../Slider/Slider"
 import "./DisplayComponent.css";
 
@@ -17,7 +18,8 @@ class DisplayComponent extends React.Component {
     return (
       <div>
         <h3 className="display-component-title">GOWNS</h3>
-        <Slider/>
+        {/* <Slider/> */}
+        {/* <SignupCard/> */}
         {/* <Slider className="slider-2"></Slider>
         <Slider className="slider-3"></Slider>
         <Slider className="slider-4"></Slider> */}
