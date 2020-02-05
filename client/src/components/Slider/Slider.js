@@ -1,3 +1,4 @@
+  
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Slider.css";
@@ -6,7 +7,6 @@ const Slide = ({ property }) => {
   const { title, imga, imgb, labela, labelb, index } = property;
   return (
     <div id={`slide-${index}`} className="slide">
-      <p className="title slide-text">{`${title}`}</p>
       <div className="slide-container">
         <div className="image-1">
           <img src={imga} className="slide-img" />
@@ -32,14 +32,12 @@ class Slider extends React.Component {
 
   prevProperty = () => {
     if (this.state.property.index >= 0) {
-      console.log(this.state.property.index)
       const newIndex = this.state.property.index - 1;
       this.setState({
         property: this.props.slideData[newIndex]
       });
     }
     if (this.state.property.index == 0) {
-      console.log(this.state.property.index)
       const newIndex = this.props.slideData.length - 1;
       this.setState({
         property: this.props.slideData[newIndex]
@@ -49,14 +47,12 @@ class Slider extends React.Component {
 
   nextProperty = () => {
     if (this.state.property.index >= 0) {
-      console.log(this.state.property.index)
       const newIndex = this.state.property.index + 1;
       this.setState({
         property: this.props.slideData[newIndex]
       });
     }
     if (this.state.property.index == this.props.slideData.length - 1) {
-      console.log(this.state.property.index)
       const newIndex = 0;
       this.setState({
         property: this.props.slideData[newIndex]
@@ -70,13 +66,13 @@ class Slider extends React.Component {
       <div>
         <div className="card">
           <button className="button" onClick={() => this.prevProperty()}>
-            &#10094;
+          <p className='button-icon'>&#10094;</p>
           </button>
           <div className="slide">
             <Slide property={property} />
           </div>
           <button className="button" onClick={() => this.nextProperty()}>
-            &#10095;
+            <p className='button-icon'>&#10095;</p>
           </button>
         </div>
       </div>
