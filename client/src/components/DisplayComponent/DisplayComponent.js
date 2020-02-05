@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Slider from "../Slider/Slider"
-import slideData from "../Slider/Slider"
+// import slideData from "../Slider/Slider"
 import "./DisplayComponent.css";
 
 class DisplayComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      // properties: this.props.slideData,
-      // property: this.props.slideData[0]
+      properties: this.props.slideData,
+      property: this.props.slideData[0]
     };
   }
   
