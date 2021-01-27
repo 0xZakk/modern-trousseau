@@ -1,0 +1,8 @@
+.stay-connected-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stay-connected-icons {
+    display: flex;
+}
