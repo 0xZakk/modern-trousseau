@@ -1,0 +1,48 @@
+import React from "react";
+import { storiesOf } from "@storybook/react";
+
+import Slider from "./Slider";
+
+import imageFile1 from "../../Images/Fall-2020-1.png";
+import imageFile2 from "../../Images/Fall-2020-2.png";
+import imageFile3 from "../../Images/Spring-2020-1.jpeg";
+import imageFile4 from "../../Images/Spring-2020-2.jpeg";
+import imageFile5 from "../../Images/Trending-Now-1.jpeg";
+import imageFile6 from "../../Images/Trending-Now-2.jpeg";
+import imageFile7 from "../../Images/Classics-1.jpeg";
+import imageFile8 from "../../Images/Classics-2.jpeg";
+
+const slideData = [
+  {
+    imga: imageFile1,
+    imgb: imageFile2,
+    labela: "LUCA",
+    labelb: "VIDA",
+    index: 0
+  },
+  {
+    imga: imageFile3,
+    imgb: imageFile4,
+    labela: "AlWAYS",
+    labelb: "BELIZE",
+    index: 1
+  },
+  {
+    imga: imageFile5,
+    imgb: imageFile6,
+    labela: "ALICE",
+    labelb: "EVELYN",
+    index: 2
+  },
+  {
+    imga: imageFile7,
+    imgb: imageFile8,
+    labela: "AINSLEY",
+    labelb: "ANNIE",
+    index: 3
+  }
+];
+
+storiesOf("Slider", module).add("Gown Display Slider", () => (
+  <Slider slideData={slideData} title="Classics"></Slider>
+));
